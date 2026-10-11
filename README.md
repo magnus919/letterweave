@@ -24,3 +24,10 @@ Fixture exports are explicitly marked software fixtures. Live corpus export is d
 Private development evidence exists, with unpooled versioned outcomes described in [readiness](docs/readiness-report.md). This code version has no fresh live-quality evidence. A future public corpus will be fresh synthetic, machine-labeled and not gold; unknown and failed items stay separate from accepted binary-label inputs. No private Gmail content or copied upstream code/corpus is used.
 
 Code is [MIT](LICENSE). Intended data licensing is separately documented in [dataset licensing](docs/dataset-license.md). Public data requires applicable route terms, a completed data card and release approval. No full generation, training or publication occurs automatically.
+
+
+### Sanitized live dataset assembly
+
+`email-corpus-forge assemble-release --runs RUN_A RUN_B RUN_C --out NEW_RELEASE --authorization authorization.json --qa-exclusions excluded-ids.json` assembles an immutable directory offline. It never generates or publishes. The authorization JSON supplies `release_name`, semantic `version`, `rights_holder`, `publication_reference`, `terms_evidence`, and explicit `dataset_release_approved` and `redistribution_rights_confirmed` booleans. These are caller declarations, not legal clearance. QA exclusions are a JSON list of source record IDs.
+
+Only complete, settled, declared fresh synthetic runs with matching source and rubric may enter. Final reviewed decisions determine labels. Unknown, disagreeing, failed, duplicate-quarantined and QA-excluded rows are omitted. Public tables contain subject/body, final labels and limited family provenance; raw API responses and hidden reasoning stay private. The MIT data license is distinct from the code license. Outputs are machine-labeled, not gold; family descendants and scenarios sharing factual themes are correlated. Atomic directory publication refuses existing destinations on macOS, Linux with renameat2, and Windows; other platforms fail closed. Power-loss durability is not guaranteed.

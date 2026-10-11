@@ -38,7 +38,7 @@ class TypographyTests(unittest.TestCase):
         self.assertTrue(broken_apostrophe_fragments(child, parent))
         provider, transport = test_nous_chat.NousTests().provider([chat(json.dumps(child))])
         packet = {'parent_content': parent, 'operation': {'operator': 'formatting-preserve'},
-                  'content_schema_version': '0.3.2'}
+                  'content_schema_version': '0.4.0'}
         provider.prepare('mutate', packet)
         response = provider.mutate(packet)
         self.assertEqual(response.outcome, 'error')

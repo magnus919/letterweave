@@ -1,4 +1,4 @@
-"""Small command-line surface; live generation and publication are not enabled."""
+"""Offline command-line planning and separately authorized dataset assembly."""
 from __future__ import annotations
 
 import argparse
@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 import sys
 from .pipeline import create_plan, export_run, run_pipeline, status_run
+from .release import DatasetReleaseAuthorization, assemble_live_release
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -26,9 +27,18 @@ def main(argv: list[str] | None = None) -> int:
             sub.add_argument("--scenario-plan", type=Path)
         if name == "export":
             sub.add_argument("--out", type=Path, required=True)
+    release = subs.add_parser('assemble-release', help='Offline sanitized assembly; does not publish or generate')
+    release.add_argument('--runs', type=Path, nargs='+', required=True)
+    release.add_argument('--out', type=Path, required=True)
+    release.add_argument('--authorization', type=Path, required=True)
+    release.add_argument('--qa-exclusions', type=Path)
     args = parser.parse_args(argv)
     try:
-        if args.command == "plan":
+        if args.command == 'assemble-release':
+            authorization = DatasetReleaseAuthorization(**json.loads(args.authorization.read_text()))
+            exclusions = json.loads(args.qa_exclusions.read_text()) if args.qa_exclusions else []
+            result = assemble_live_release(args.runs, args.out, authorization=authorization, qa_exclusions=exclusions)
+        elif args.command == "plan":
             result = create_plan(args.run, args.seed, family_count=args.family_count,
                                  variants_per_family=args.variants_per_family,
                                  requested_candidates=args.requested_candidates, cap_usd=args.cap_usd,

@@ -8,6 +8,9 @@ import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 MUTATIONS = [
+    ('release_rights_gate_removed', 'release.py', 'if self.dataset_release_approved is not True or self.redistribution_rights_confirmed is not True:', 'if False:', 'test_live_release.LiveReleaseTests.test_unapproved_dataset_or_unconfirmed_rights_rejected'),
+    ('release_privacy_gate_removed', 'release.py', 'if _PRIVATE.search(value) or _SECRET.search(value):', 'if False:', 'test_live_release.LiveReleaseTests.test_private_path_and_secret_shaped_reader_content_rejected'),
+    ('release_qa_exclusions_removed', 'release.py', 'blocked=qa|quarantine', 'blocked=quarantine', 'test_live_release.LiveReleaseTests.test_explicit_qa_exclusion_omits_content_and_reports_count'),
     ('live_export_enabled', 'pipeline.py', 'if manifest["mode"] != "fixture_only":', 'if False:', 'test_release_guards.ReleaseGuardTests.test_reviewed_live_plan_still_cannot_export_or_change_evidence'),
     ('fixture_marker_gold_claim', 'pipeline.py', 'Software test fixtures. Not a generated corpus, not gold labels, not publication-ready.', 'Validated corpus with gold labels.', 'test_release_guards.ReleaseGuardTests.test_fixture_export_is_explicitly_fixture_only'),
     ("typography_byte_budget_removed", "typography.py", "len(value.encode('utf-8'))>limit", "False", "test_typography.TypographyTests.test_utf8_byte_limits_and_emoji_rejection"),

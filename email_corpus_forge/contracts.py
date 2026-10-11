@@ -11,7 +11,7 @@ LABELS = (
     "newsletters/publications", "promotions/outreach", "community/discussions",
     "scheduling/invitations",
 )
-VERSION = "0.3.2"
+VERSION = "0.4.0"
 ANCHORS = {
     LABELS[0]: "Substantive interpersonal exchange beyond another category's routine mechanics. Greetings, signatures, RSVP/slot replies, and a group discussion contribution alone are insufficient.",
     LABELS[1]: "A discrete exchange, account record or commitment; offers are not receipts.",
