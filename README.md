@@ -1,10 +1,10 @@
 # LetterWeave
 
-Original MIT tooling for auditable synthetic English emails with seven overlapping purpose labels. Version 0.3.2. This is a code-only candidate; no public corpus, private pilot raw data, trained model or gold labels are included.
+Original MIT tooling for auditable synthetic English emails with seven overlapping purpose labels. Current implementation: **v0.4**. The generator and dataset are the deliverables; model training and hosted inference are outside scope.
 
 ## Run offline
 
-Use Python 3.11 or newer on macOS/Linux. The fixture runtime uses the standard library.
+Python 3.11 or newer; fixture execution uses the standard library.
 
 ```sh
 python -m email_corpus_forge plan --run ./runs/fixture
@@ -15,21 +15,20 @@ python -m unittest discover -s tests -v
 python tools/check_mutations.py
 ```
 
-Fixture exports are explicitly marked software fixtures. Live corpus export is disabled. Optional live adapters require an injected client and frozen authorization, strict structured outputs, bounded calls and retained uncertain reservations; no key or account setup is included here.
+Fixtures are software test artifacts, never the corpus. Live adapters require explicit bounded authorization and an injected client; no credential setup is included. Generation, export and publication are separate actions.
 
-## Evidence and limitations
+## Fresh dataset release
 
-133 isolated installed tests and 32 critical mutation checks pass locally. CI is configured but remote results are pending. The typography guard preserves curly/straight punctuation and rejects characteristic split contractions without rewriting raw text. Formatting checks retain punctuation, numbers and negation. These safeguards do not prove grammar, semantic equivalence or label accuracy.
+**Fresh release pending final QA.** The new cohort plans 1,000 candidates from 900 families: 750 ordinary messages, 200 controlled challenge messages from 100 parent/child families, and 50 context-sensitive messages. These are candidate counts, not retained or accepted counts. Final counts, distributions, exclusions and checksums will be recorded after QA and assembly. The intended release is LetterWeave 0.1.0; no dataset path is linked until the artifact exists.
 
-Private development evidence exists, with unpooled versioned outcomes described in [readiness](docs/readiness-report.md). This code version has no fresh live-quality evidence. A future public corpus will be fresh synthetic, machine-labeled and not gold; unknown and failed items stay separate from accepted binary-label inputs. No private Gmail content or copied upstream code/corpus is used.
+Labels describe observable communicative purpose: correspondence, transactions/records, alerts/updates, newsletters/publications, promotions/outreach, community/discussions and scheduling/invitations. They overlap. Intended labels are hypotheses; final content-based review decisions determine released labels. Unknown, failed and disagreeing records are excluded from binary-label inputs. Complete all-negative vectors are valid without a quota.
 
-Code is [MIT](LICENSE). Intended data licensing is separately documented in [dataset licensing](docs/dataset-license.md). Public data requires applicable route terms, a completed data card and release approval. No full generation, training or publication occurs automatically.
+The corpus is **synthetic, machine-labeled, not gold**. Generation and blind review use the same model, Nous `openai/gpt-6.1-sol`, in isolated contexts. Native QA is separate from billed API generation/review, and does not provide gold annotation. Repeated factual themes and family descendants are correlated. No private Gmail content or copied upstream code/corpus is included. See [data card](docs/data-card.md) and [readiness](docs/readiness-report.md).
 
+## Verification and assembly
 
-### Sanitized live dataset assembly
+The merged code PR's reviewed head passed remote CI: 155 tests and 35 critical mutation checks. The standalone dataset and scenario-plan verifiers have 25 focused integrity tests. The full local and isolated installed suites each passed180 tests. Those are implementation checks, not a claim of corpus accuracy; the current fresh dataset still requires final QA.
 
-`email-corpus-forge assemble-release --runs RUN_A RUN_B RUN_C --out NEW_RELEASE --authorization authorization.json --qa-exclusions excluded-ids.json` assembles an immutable directory offline. It never generates or publishes. The authorization JSON supplies `release_name`, semantic `version`, `rights_holder`, `publication_reference`, `terms_evidence`, and explicit `dataset_release_approved` and `redistribution_rights_confirmed` booleans. These are caller declarations, not legal clearance. QA exclusions are a JSON list of source record IDs.
+`email-corpus-forge assemble-release --runs RUN_A RUN_B RUN_C --out NEW_RELEASE --authorization authorization.json --qa-exclusions excluded-ids.json` performs offline sanitized assembly without generation or publication. It requires explicit release declarations and settled fresh runs. It omits unknown, failed, disagreeing, duplicate-quarantined and QA-excluded rows, retaining limited public lineage alongside separate content and label tables. Raw provider responses, hidden reasoning, credentials and private execution files are not public artifacts. Existing release destinations are never overwritten.
 
-Only complete, settled, declared fresh synthetic runs with matching source and rubric may enter. Final reviewed decisions determine labels. Unknown, disagreeing, failed, duplicate-quarantined and QA-excluded rows are omitted. Public tables contain subject/body, final labels and limited family provenance; raw API responses and hidden reasoning stay private. The MIT data license is distinct from the code license. Outputs are machine-labeled, not gold; family descendants and scenarios sharing factual themes are correlated. Atomic directory publication refuses existing destinations on macOS, Linux with renameat2, and Windows; other platforms fail closed. Power-loss durability is not guaranteed.
-
-Explicit provider authorization retains a $10 default ceiling. Larger bounded runs require a separately supplied integer `approved_cap_micro` matching the actual approval, up to the library maximum $30. Multi-run controllers must enforce a shared cumulative budget; per-run authorization alone is insufficient. Near-duplicate index/candidate limits can be explicitly raised to2048 for small complete cohorts while remaining bounded.
+Code is [MIT](LICENSE); corpus licensing is separate. The publisher offers dataset MIT rights only to the extent held, without licensing provider models/services or third-party material. [Dataset licensing](docs/dataset-license.md) and [provider terms review](docs/current-provider-release-terms.md) describe the scope and remaining applicability uncertainty. No express dataset-only publication ban or general written-permission requirement was established. Publication remains an explicit external action.
