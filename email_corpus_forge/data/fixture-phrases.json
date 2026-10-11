@@ -1,0 +1,13 @@
+{
+  "kind": "software_fixture_not_corpus",
+  "phrases": {
+    "alerts/updates": "Service status: the example system is temporarily unavailable.",
+    "community/discussions": "Forum discussion: please contribute to our group's shared thread.",
+    "correspondence": "Could you reply with your thoughts on the draft?",
+    "newsletters/publications": "Weekly digest: this edition collects three recent articles.",
+    "promotions/outreach": "Special offer: subscribe today to receive a discounted plan.",
+    "scheduling/invitations": "Meeting invitation: join us on Tuesday at 14:00 UTC.",
+    "transactions/records": "Receipt: payment of 25 units recorded for order EXAMPLE-42."
+  },
+  "version": "0.3.2"
+}
