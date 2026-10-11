@@ -20,10 +20,12 @@ class PrivatePilotAuthorization:
     billing_verified: bool = False
     private_pilot_terms_reviewed: bool = False
     scope: str = 'private_synthetic_quality_pilot'
+    approved_cap_micro: int = 10_000_000
 
     def check(self, manifest=None):
         if (self.scope != 'private_synthetic_quality_pilot' or not self.approval_reference or
-                type(self.cap_micro) is not int or not 0 < self.cap_micro <= 10_000_000 or
+                type(self.cap_micro) is not int or type(self.approved_cap_micro) is not int or
+                not 0 < self.cap_micro <= self.approved_cap_micro <= 30_000_000 or
                 any(x is not True for x in (self.api_entitlement_verified, self.billing_verified, self.private_pilot_terms_reviewed))):
             raise DispatchNotAuthorized('private pilot API entitlement, billing or scope/terms readiness unresolved')
         if manifest is not None and (self.manifest_hash != digest(manifest) or manifest['cap_micro'] > self.cap_micro):

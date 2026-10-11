@@ -18,7 +18,7 @@ def validate_settings(value=None, *, default_enabled=False):
     if type(settings['enabled']) is not bool:
         raise ValueError('near_duplicates.enabled must be boolean')
     bounds = {'jaccard_ppm': (500000, 1000000), 'min_tokens': (3, 1000), 'max_tokens': (20, 4096),
-              'signature_size': (1, 32), 'bucket_limit': (1, 256), 'candidate_limit': (1, 256), 'max_edges': (1, 20000), 'max_index_shingles': (100, 1000000), 'max_exact_entries': (100, 200000)}
+              'signature_size': (1, 32), 'bucket_limit': (1, 2048), 'candidate_limit': (1, 2048), 'max_edges': (1, 20000), 'max_index_shingles': (100, 1000000), 'max_exact_entries': (100, 200000)}
     for key, (lo, hi) in bounds.items():
         if type(settings[key]) is not int or not lo <= settings[key] <= hi:
             raise ValueError(f'invalid near-duplicate {key}')
