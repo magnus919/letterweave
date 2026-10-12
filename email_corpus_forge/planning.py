@@ -214,10 +214,12 @@ def budget_envelope(spec, scenarios, max_repairs, max_rereviews, cap_micro):
 
 
 def configure_plan(smoke, *, seed, family_count=None, variants_per_family=5, requested_candidates=None,
-                   cap_usd='10', max_repairs=12, max_rereviews=12, provider_mode='fixture', scenario_plan=None, live_provider='openai-responses'):
+                   cap_usd='10', max_repairs=12, max_rereviews=12, provider_mode='fixture', scenario_plan=None, live_provider='openai-responses', generation_model=None):
     integer(seed, 'seed', maximum=2**32 - 1)
     integer(variants_per_family, 'variants_per_family', minimum=1)
     if live_provider not in {'openai-responses','nous-chat'}:raise ValueError('unsupported live provider')
+    if generation_model is not None and (generation_model != 'openai/gpt-6-luna' or provider_mode != 'live' or live_provider != 'nous-chat'):
+        raise ValueError('generation override requires exact authorized ordinary Nous Luna route')
     if not isinstance(provider_mode, str) or provider_mode not in {'fixture', 'live'}:
         raise ValueError('provider_mode must be fixture or live')
     cap = dollars_to_micro(cap_usd)
@@ -253,7 +255,7 @@ def configure_plan(smoke, *, seed, family_count=None, variants_per_family=5, req
     valid_ids=set(all_ids)
     if type(allocation) is not list or len(allocation)>max_rereviews or any(not isinstance(x,str) for x in allocation) or len(set(allocation))!=len(allocation) or any(x not in valid_ids for x in allocation):
         raise ValueError('rereview_allocation must name distinct planned records within max_rereviews')
-    return {'scenarios': scenarios, 'family_count': count, 'message_count': requested,
+    return {**({'role_models': {'generation': generation_model, 'review': 'openai/gpt-6.1-sol'}, 'routing_version': 1} if generation_model else {}), 'scenarios': scenarios, 'family_count': count, 'message_count': requested,
             'requested_candidates': requested, 'variants_per_family': variants_per_family,
             'cap_micro': cap, 'max_repairs': max_repairs, 'max_rereviews': max_rereviews,
             'rereview_allocation': allocation, 'rereview_policy': 'frozen record-ID allocation; no dynamic consumption by intent mismatch',

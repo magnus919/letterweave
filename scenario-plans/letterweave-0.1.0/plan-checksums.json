@@ -1,0 +1,35 @@
+{
+  "code_fingerprint": "6c036f684f8f822d62d75b9b3baa64173a8aaaf1413b1beeef8543d1147bc69a",
+  "family_count": 900,
+  "generator_version": "0.4.0",
+  "gold_labels": false,
+  "kind": "scenario_design_hypotheses_not_observed_labels",
+  "planned_candidates": 1000,
+  "plans": {
+    "challenge": {
+      "candidates": 200,
+      "canonical_sha256": "ff3a7df13d2ea0a3350a52632d7c5554f1dc5743890a8846f6f3ae82f2bceef3",
+      "families": 100,
+      "file": "challenge-inventory.json",
+      "variants_per_family": 2
+    },
+    "context_sensitive": {
+      "candidates": 50,
+      "canonical_sha256": "444f0c5a7d8e57ab41c83f880390c5ee71d529fbc8cf68336a06fef0612442d3",
+      "families": 50,
+      "file": "context_sensitive-inventory.json",
+      "variants_per_family": 1
+    },
+    "ordinary": {
+      "candidates": 750,
+      "canonical_sha256": "6410fe5f35789b264488192f16a9ea6cfe3cb7654ddcccc17db6d944edcb7379",
+      "families": 750,
+      "file": "ordinary-inventory.json",
+      "variants_per_family": 1
+    }
+  },
+  "release_name": "letterweave",
+  "release_version": "0.1.0",
+  "seed": 401,
+  "statistical_independence": false
+}

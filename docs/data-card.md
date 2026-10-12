@@ -1,33 +1,54 @@
-# Data card — development template
+# LetterWeave 0.1.0 data card
 
-Status: no generated corpus release. Current fixture outputs are deterministic software test artifacts, not a corpus, and make no model-quality claims. Complete this card from a verified run before publication.
+Fresh invented English subject/body content, no private Gmail, copied upstream corpus, fixtures or historical private-pilot data. Labels are synthetic machine judgments, not gold. Corpus inputs exclude intended labels and rationale; labels and limited lineage are separate joinable tables.
 
-## Purpose and provenance
+Purpose decisions use observable current subject/body. Quotes do not automatically transfer purpose; signatures and incidental links do not establish categories. Missing context affects only dependent decisions. Legitimate subjectless/body-light mail is permitted. Receipt completion may carry records plus alerts; neutral community participation and scheduling are not automatically promotional. Labels overlap without statistical independence.
 
-Fresh synthetic English email subject/body text with seven overlapping communicative-purpose categories. No private Gmail content, copied upstream corpus or upstream implementation is used. Spam detection and model training/deployment are outside scope. Any eventual release must say **synthetic, machine-labeled, not gold**.
+Blind review receives opaque ID, rubric/anchors, subject/body and schema only; no intent, family/split, earlier answers or tools. Positive labels have evidence spans; absence needs no quotation. Stable consensus is separate from first/latest judgments; disagreements remain unknown. Controlled mutation checks distinguish applicability, change, mechanical anchors and label relation; no mechanical result establishes semantic preservation. Valid text is not repaired until agreement.
 
-Record release name/version, maintainer, taxonomy/schema/prompt versions and hashes, code revision, provider/model/settings, applicable terms evidence, authorization reference, run manifest hash, export checksums and actual spend. Do not include credentials or private configuration.
+## Fresh cohort and quality
 
-## Labels
+Generation completed the planned cohort. Final retained counts, actual model evidence and native QA outcomes are consolidated in the verified dataset section below. Related factual themes and descendants are correlated. Intended labels/mutation relations are design hypotheses; mixed-model agreement is not ground truth.
 
-Categories: correspondence; transactions/records; alerts/updates; newsletters/publications; promotions/outreach; community/discussions; scheduling/invitations. They are non-exclusive binary purposes, not statistically independent outcomes. Preserve intended and reviewed labels separately. Preserve present/absent/unknown judgments; accepted records need a complete decided vector. All-negative is valid, while uncertainty, unreadability, insufficient context and failed review remain held.
+## Accounting limits
 
-Evaluate the current message's observable subject/body purpose. Quoted replies do not automatically transfer purpose; explicit adopted forwards can. Signatures and incidental links do not establish purpose. Missing attachments/history must not be invented. Subjectless and subject-only legitimate mail can qualify. Scheduling is not automatically promotional; a personalized automated greeting is not automatically correspondence.
+Fresh settled conservative accounting: $8.512091; unresolved fresh reservation: $0.005700. Prior exposure is $1.122584, including an old unresolved $0.114000 reservation. Combined exposure is $9.640375 under the approved $25 fresh/$30 cumulative caps. These are catalog-based conservative estimates/reservations, not verified attributable invoice charges. Native QA is outside the provider ledger. A held uncertain request is not free, all-negative or semantically ambiguous by implication. Continuation does not reconcile its billing outcome.
 
-## Sampling and review
+## Offline assembly and verification
 
-Historical planning proposed 24 families × five variants. Actual private development evidence is versioned and unpooled: initial pilot 24 actual emails, v0.2 30 actual emails, and the same v0.3/v0.3.1 diagnostic 21 actual emails (the stopped v0.3 two-email prefix is carried, not another corpus). See readiness-report.md for reconciled counts. These are selected single-purpose, overlap and boundary examples. No successful no-match quota is imposed. Report per-label positive/negative/near-negative family coverage and vary topic, tone and format across labels to avoid shortcuts. The whole pilot is development evidence; any 16/4/4 family split tests leakage mechanics only. Descendants inherit family assignments.
+Use the model-aware adjunct as the primary mixed-model assembly route:
 
-The fresh blind reviewer receives only opaque randomized ID, rubric/anchors, subject/body and schema. No conversation, intended labels, family/split metadata or previous answers/rationales; no tools/retrieval. Preserve immutable first-pass judgments before controller comparison. Positive evidence spans support applicable labels; quotations are not required to prove absence. Bounded blind re-review cannot establish gold truth; persistent uncertainty/disagreement is quarantined. Repair malformed/incoherent text only, or create an explicit descendant, never modify valid text to force agreement. No human labeling is required.
+```sh
+python tools/assemble_model_release.py --runs ./runs/ordinary ./runs/challenge ./runs/context-sensitive --out ./datasets/letterweave-0.1.0 --authorization ./release-authorization.json --qa-exclusions ./qa-exclusions.json
+python tools/verify_dataset.py --dataset ./datasets/letterweave-0.1.0
+```
 
-## Required release report
+Assembly never generates or publishes and refuses existing release destinations. Final content/label tables and limited provenance omit unresolved, duplicate-quarantined and QA-excluded rows. Raw provider responses, hidden reasoning, private execution evidence and credentials are excluded. Dataset schema-v1 verification checks joins, integrity and model evidence; it does not establish label accuracy.
 
-Report original candidate/family denominators, accepted/held/rejected/unattempted counts before and after repair; per-label support, unknowns and family coverage; intended/reviewed disagreements; duplicates and English exceptions; repairs, failure reasons, lineage, billed tokens and cost. Distinguish semantic ambiguity, missing context and technical failures. Disclose reviewer/model relationship and correlated-error risk. Optional agreement audit is separately costed and cannot be called accuracy.
+Per-record `generation_model` and `review_models` are actual normalized aliases; `generation_model_version` and `review_model_versions` retain raw provider versions. Source `role_models` records planned roles separately from accepted actual model/version sets. Cached Sol content cannot become Luna merely because a continuation planned Luna generation.
 
-## Limitations and rights
+All 217 tests passed locally and in an isolated installed package; all 35 critical mutants were caught. [PR 2](https://github.com/magnus919/letterweave/pull/2) records the exact reviewed head and remote-check evidence. Dataset verification passed; final retained counts are recorded below.
 
-Synthetic sampling does not represent inbox prevalence. Machine labels can contain shared-model errors even after agreement. No real-inbox performance, training suitability or benchmark validity is established. Public release requires verified redistribution rights for generated text, labels and judgments, separate intended dataset MIT licensing and explicit publication approval. A provider's output-ownership clause alone is insufficient. No fixture export should be published as the corpus.
+## Release fields
 
-## Current implementation versus observed data
+Final rows/families, label/slice/model support and exclusions are recorded below; payload checksums and verifier results accompany the artifact. Independent audit confirmed 205 retained flagged records; these flags are disclosed limitations, not gold judgments. Planned 1,000 slots must never be represented as 1,000 released emails. Splits are lineage/leakage fixtures rather than independently sampled benchmark holdouts. Selected themes do not estimate inbox prevalence or real-inbox performance.
 
-Offline v0.3.2 preserves supported English typography and rejects characteristic split-contraction corruption without silently rewriting output. It has no new live-quality evidence. The v0.3.1 flagged raw variant and native exclusion remain unchanged; automated acceptance is separate from native quality screening. Live corpus export remains disabled. No accepted all-negative example or gold label set has been established.
+Publisher MIT applies only to applicable rights held, not provider technology/trademarks or third-party material. Provider terms contain no established express dataset-only ban; applicable upstream agreement remains unidentified. Publication does not claim legal clearance or authorization of every downstream use.
+
+## Verified dataset 0.1.0
+
+The assembled dataset contains **855 retained emails from 821 families**, out of 1,000 planned slots/900 families. The 145 excluded slots comprise 77 pipeline holds, 67 manual exclusions from pipeline-accepted rows and one descendant blocked by its excluded parent. A complete global duplicate audit added zero quarantine exclusions.
+
+Retained slices: 712 ordinary, 127 challenge and 16 context-sensitive (schema slice `uncertainty`). Actual retained generation: 624 Luna and 231 Sol; all 855 records have Sol review evidence. Raw provider model identifiers are preserved as observed and are not silently replaced by catalog canonical IDs. Fourteen controlled transitions and three all-negative records are retained.
+
+Per-label support (overlapping): correspondence 300; alerts/updates 303; scheduling/invitations 202; community/discussions 170; transactions/records 166; promotions/outreach 139; newsletters/publications 66. These counts describe machine labels, not independent accuracy measurements.
+
+Native screening covered all 947 actual emails: first 100 nonopaque and subsequent 847 opaque. It recorded 67 accepted-row manual exclusions, 24 content semantic/context holds and 53 separate no-content slots. Independent audit confirmed 205 flagged records among the 855 retained; 60 of the 265 flagged actual records were not released. Focused contraction-pattern and control-character scans found zero matches; this does not establish flawless English. Packet-integrity checks found zero mismatches: 447 carried record files were byte-identical and 500 new blind-review packets matched final content. These checks do not prove naturalness, semantic equivalence or factual correctness.
+
+The immutable payload and model-aware/scenario-plan verifiers passed. Dataset checksums and release commitments are supplied with the payload. [PR 2](https://github.com/magnus919/letterweave/pull/2) records reviewed-head and check evidence.
+
+[Immutable dataset data card](../datasets/letterweave-0.1.0/DATA_CARD.md) and [checksums](../datasets/letterweave-0.1.0/checksums.json).
+
+## Concrete retained limitations
+
+Retained flagged examples include `lw-challenge-005-v0`, which interprets “22 units” as both payment and a physical split; `lw-challenge-008-v1` and `lw-challenge-010-v1`, which shift buyer/seller roles; and synthetic obsolete-context phrases, including literal historical constraints in audio-advice scenarios. Technical advice and citation/authority claims remain unverified. These records illustrate disclosed semantic/style limitations; neither verifier success nor zero targeted formatting matches guarantees flawless English or reliable advice.

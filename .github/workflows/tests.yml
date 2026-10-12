@@ -26,3 +26,19 @@ jobs:
           python -m email_corpus_forge run --run "$task_fixture_dir/run"
           python -m email_corpus_forge status --run "$task_fixture_dir/run"
           python -m email_corpus_forge export --run "$task_fixture_dir/run" --out "$task_fixture_dir/export"
+      - name: Verify published dataset payloads offline
+        run: |
+          if [ -d datasets ]; then
+            for task_dataset_dir in datasets/*; do
+              [ -d "$task_dataset_dir" ] || continue
+              python tools/verify_dataset.py --dataset "$task_dataset_dir"
+            done
+          fi
+      - name: Verify published scenario designs offline
+        run: |
+          if [ -d scenario-plans ]; then
+            for task_plan_dir in scenario-plans/*; do
+              [ -d "$task_plan_dir" ] || continue
+              python tools/verify_scenario_plans.py --plans "$task_plan_dir"
+            done
+          fi
