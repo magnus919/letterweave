@@ -1,6 +1,12 @@
 # LetterWeave
 
-Original MIT tooling and versioned synthetic English multi-label email corpora. Dataset 0.2.0 is assembled and verified locally; external publication status is separate. Model training and hosted inference are outside the generator pipeline.
+Original MIT tooling and versioned synthetic English multi-label email corpora. Dataset 0.3.0 contains1,471 synthetic emails and accompanies Letterweave-1.1-E2B. Model training and hosted inference are outside the generator pipeline.
+
+## Purpose contrasts and model 1.1
+
+Tooling 0.7.0 adds opt-in `mail-realism-v2`, with separately versioned [purpose boundaries](docs/purpose-boundaries-v2.md) and a reproducible contrast inventory. Earlier profiles and datasets remain unchanged. [Dataset 0.3.0](datasets/letterweave-0.3.0/DATA_CARD.md) adds313 fully reviewed invented messages; train/development/test counts942/270/259. Related contrast groups share a model split. Incomplete source calls, excluded slots and unresolved accounting remain declared.
+
+[Model 1.1](https://huggingface.co/Groktopus/Letterweave-1.1-E2B) and [HF dataset0.3.0](https://huggingface.co/datasets/Groktopus/Letterweave-0.3.0) contain usage and provenance documentation. The known 100-email assistant screen improved acceptable sets76->79 but missed alerts7->9, with10 rescues and7 regressions. All 9 meeting recaps became acceptable; all 4 job-match notices regressed. This is development agreement, not independently labeled unseen accuracy. See [aggregate results](docs/letterweave-1.1-results.json). No private emails or per-message results are distributed.
 
 ## Realistic received-mail generation
 

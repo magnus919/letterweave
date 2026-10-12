@@ -1,0 +1,181 @@
+{
+  "model": "Letterweave-1.1-E2B",
+  "dataset": "Letterweave0.3.0",
+  "selected_checkpoint": "internal candidate1.1-b, fixed final480steps",
+  "hardware": "NVIDIA RTX5070Ti16GB",
+  "quality_kind": "model_teacher known-development agreement, not human or unseen accuracy",
+  "private100": {
+    "legacy_v1": {
+      "model_1_0": {
+        "acceptable": 39,
+        "missing_alerts": 51
+      },
+      "prior_1_1_a": {
+        "acceptable": 76,
+        "missing_alerts": 7
+      },
+      "candidate_1_1_b": {
+        "acceptable": 79,
+        "missing_alerts": 9
+      }
+    },
+    "clarified_v2": {
+      "model_1_0": {
+        "acceptable": 43,
+        "missing_alerts": 49
+      },
+      "prior_1_1_a": {
+        "acceptable": 81,
+        "missing_alerts": 5
+      },
+      "candidate_1_1_b": {
+        "acceptable": 84,
+        "missing_alerts": 7
+      }
+    }
+  },
+  "paired_legacy": {
+    "rescued": 10,
+    "regressed": 7,
+    "net": 3
+  },
+  "families": {
+    "meeting_recaps": {
+      "prior_acceptable": 4,
+      "new_acceptable": 9,
+      "n": 9
+    },
+    "job_matches": {
+      "prior_acceptable": 4,
+      "new_acceptable": 0,
+      "n": 4
+    }
+  },
+  "synthetic_retained195": {
+    "prior_1_1_a": {
+      "emails": 195,
+      "macro_f1": 0.9388456282962112,
+      "exact": 0.8512820512820513,
+      "exact_count": 166,
+      "per_label": {
+        "correspondence": {
+          "tp": 51,
+          "tn": 141,
+          "fp": 2,
+          "fn": 1
+        },
+        "transactions/records": {
+          "tn": 156,
+          "tp": 34,
+          "fn": 5
+        },
+        "alerts/updates": {
+          "tn": 102,
+          "tp": 85,
+          "fp": 7,
+          "fn": 1
+        },
+        "newsletters/publications": {
+          "tn": 179,
+          "tp": 12,
+          "fn": 3,
+          "fp": 1
+        },
+        "promotions/outreach": {
+          "tn": 168,
+          "tp": 25,
+          "fn": 1,
+          "fp": 1
+        },
+        "community/discussions": {
+          "tn": 158,
+          "tp": 34,
+          "fp": 1,
+          "fn": 2
+        },
+        "scheduling/invitations": {
+          "tn": 144,
+          "tp": 45,
+          "fp": 3,
+          "fn": 3
+        }
+      }
+    },
+    "candidate_1_1_b": {
+      "emails": 195,
+      "macro_f1": 0.9402415080196037,
+      "exact": 0.8564102564102564,
+      "exact_count": 167,
+      "per_label": {
+        "correspondence": {
+          "tp": 52,
+          "tn": 141,
+          "fp": 2
+        },
+        "transactions/records": {
+          "tn": 155,
+          "tp": 34,
+          "fn": 5,
+          "fp": 1
+        },
+        "alerts/updates": {
+          "tn": 103,
+          "tp": 85,
+          "fp": 6,
+          "fn": 1
+        },
+        "newsletters/publications": {
+          "tn": 180,
+          "tp": 12,
+          "fn": 3
+        },
+        "promotions/outreach": {
+          "tn": 168,
+          "tp": 25,
+          "fn": 1,
+          "fp": 1
+        },
+        "community/discussions": {
+          "tn": 157,
+          "tp": 34,
+          "fp": 2,
+          "fn": 2
+        },
+        "scheduling/invitations": {
+          "tn": 144,
+          "tp": 44,
+          "fp": 3,
+          "fn": 4
+        }
+      }
+    }
+  },
+  "synthetic_fresh64": {
+    "prior": {
+      "macro_f1": 0.8684880403774413,
+      "exact_set_agreement": 0.765625
+    },
+    "new": {
+      "macro_f1": 0.9222010425123842,
+      "exact_set_agreement": 0.84375
+    }
+  },
+  "training": {
+    "seconds": 994.4827,
+    "peak_allocated_mib": 9582.927734375,
+    "steps": 480,
+    "seed": 3407
+  },
+  "checkpoint": {
+    "decision_changes": 0,
+    "judgments": 1813,
+    "max_probability_delta": 0.0036415277772176013
+  },
+  "limits": [
+    "Known100guided generator design; not independent unseen test",
+    "All actual-mail labels are assistant model_teacher; five optional-mask amendments frozen before new predictions",
+    "Small correlated template sample; no checkpoint/threshold tuned using mail results",
+    "Fixed training settings, changed data mixture/exposure",
+    "No new Jev evaluation; timing boundaries differ"
+  ]
+}

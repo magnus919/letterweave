@@ -76,7 +76,11 @@ def _attempt(root, attempt_id, stage, events):
     try:
         request=response.get('request_payload') or {}
         messages=request.get('messages') or []
-        profile='mail-realism-v1' if messages and 'Generation profile mail-realism-v1.' in messages[0].get('content','') else 'compact'
+        profile='compact'
+        if messages:
+            header=messages[0].get('content','')
+            if 'Generation profile mail-realism-v2.' in header:profile='mail-realism-v2'
+            elif 'Generation profile mail-realism-v1.' in header:profile='mail-realism-v1'
         normalized = adapters[alias](None,content_profile=profile).normalize_response(response.get('raw_response'))
     except (ValueError, TypeError, KeyError, AttributeError) as exc:
         raise IntegrityError('original provider response cannot be normalized') from exc

@@ -38,7 +38,7 @@ def main() -> int:
             shutil.copy2(ROOT / name, source / name)
         shutil.copytree(ROOT / "tests", base / "tests", ignore=shutil.ignore_patterns("__pycache__"))
         shutil.copy2(ROOT / "LICENSE", base / "LICENSE")
-        for name in ('verify_dataset.py','verify_scenario_plans.py','assemble_model_release.py'):
+        for name in ('verify_dataset.py','verify_scenario_plans.py','assemble_model_release.py','build_contrast_plan.py'):
             verifier = ROOT / 'tools' / name
             if verifier.exists():
                 (base / 'tools').mkdir(exist_ok=True)

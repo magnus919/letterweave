@@ -1,0 +1,2963 @@
+{
+  "schema_version": 1,
+  "families": [
+    {
+      "family_id": "r11b-meeting-recap-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative meeting",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "purpose": "Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap",
+      "diagnostic_tags": [
+        "meeting",
+        "recap",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business meeting",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "purpose": "Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap",
+      "diagnostic_tags": [
+        "meeting",
+        "recap",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network meeting",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "purpose": "Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap",
+      "diagnostic_tags": [
+        "meeting",
+        "recap",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio meeting",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "purpose": "Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap",
+      "diagnostic_tags": [
+        "meeting",
+        "recap",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association meeting",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "purpose": "Automated completed-meeting notes-ready notice. Use naturally confusing past-tense recorder invitation wording, old date/time, discussion topics and counts. No current join/RSVP request.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap",
+      "diagnostic_tags": [
+        "meeting",
+        "recap",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-invitation-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative meeting",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "purpose": "Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "invitation",
+      "diagnostic_tags": [
+        "meeting",
+        "invitation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-invitation-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field services business meeting",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "purpose": "Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "invitation",
+      "diagnostic_tags": [
+        "meeting",
+        "invitation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-invitation-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education network meeting",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "purpose": "Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "invitation",
+      "diagnostic_tags": [
+        "meeting",
+        "invitation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-invitation-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "research studio meeting",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "purpose": "Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "invitation",
+      "diagnostic_tags": [
+        "meeting",
+        "invitation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-invitation-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "housing association meeting",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "purpose": "Calendar service issues a new concrete future meeting invitation with RSVP and join details.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "invitation",
+      "diagnostic_tags": [
+        "meeting",
+        "invitation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-reminder-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative meeting",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "purpose": "Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "reminder",
+      "diagnostic_tags": [
+        "meeting",
+        "reminder",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-reminder-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field services business meeting",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "purpose": "Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "reminder",
+      "diagnostic_tags": [
+        "meeting",
+        "reminder",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-reminder-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education network meeting",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "purpose": "Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "reminder",
+      "diagnostic_tags": [
+        "meeting",
+        "reminder",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-reminder-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "research studio meeting",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "purpose": "Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "reminder",
+      "diagnostic_tags": [
+        "meeting",
+        "reminder",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-reminder-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "housing association meeting",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "purpose": "Booked-event service reminder with See you at subject, specific event date/time and join instructions; terse template.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "reminder",
+      "diagnostic_tags": [
+        "meeting",
+        "reminder",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-human-slot-a",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative meeting",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "purpose": "Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "human-slot",
+      "diagnostic_tags": [
+        "meeting",
+        "human-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-human-slot-b",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "field services business meeting",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "purpose": "Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "human-slot",
+      "diagnostic_tags": [
+        "meeting",
+        "human-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-human-slot-c",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "education network meeting",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "purpose": "Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "human-slot",
+      "diagnostic_tags": [
+        "meeting",
+        "human-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-human-slot-d",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "research studio meeting",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "purpose": "Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "human-slot",
+      "diagnostic_tags": [
+        "meeting",
+        "human-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-human-slot-e",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "housing association meeting",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "purpose": "Short human response negotiating duration/time of a concrete next meeting; friendly greeting, signature and historical introductions, no individual advice.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "human-slot",
+      "diagnostic_tags": [
+        "meeting",
+        "human-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-next-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative meeting",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "purpose": "Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap-next",
+      "diagnostic_tags": [
+        "meeting",
+        "recap-next",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-next-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field services business meeting",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "purpose": "Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap-next",
+      "diagnostic_tags": [
+        "meeting",
+        "recap-next",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-next-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education network meeting",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "purpose": "Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap-next",
+      "diagnostic_tags": [
+        "meeting",
+        "recap-next",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-next-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "research studio meeting",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "purpose": "Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap-next",
+      "diagnostic_tags": [
+        "meeting",
+        "recap-next",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-recap-next-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "housing association meeting",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "purpose": "Notes-ready notice for a completed meeting that ALSO invites the recipient to a specifically dated follow-up; both purposes visible.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "recap-next",
+      "diagnostic_tags": [
+        "meeting",
+        "recap-next",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-editorial-a",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "arts cooperative meeting",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "purpose": "Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "editorial",
+      "diagnostic_tags": [
+        "meeting",
+        "editorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-editorial-b",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "field services business meeting",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "purpose": "Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "editorial",
+      "diagnostic_tags": [
+        "meeting",
+        "editorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-editorial-c",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "education network meeting",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "purpose": "Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "editorial",
+      "diagnostic_tags": [
+        "meeting",
+        "editorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-editorial-d",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "research studio meeting",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "purpose": "Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "editorial",
+      "diagnostic_tags": [
+        "meeting",
+        "editorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-meeting-editorial-e",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "housing association meeting",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "purpose": "Recurring multi-story publication reports on meetings and appointment automation as topics. Dates, invitation wording and meeting counts appear in reporting, not live requests.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "editorial",
+      "diagnostic_tags": [
+        "meeting",
+        "editorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-feedback-a",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative thread",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "purpose": "Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "feedback",
+      "diagnostic_tags": [
+        "thread",
+        "feedback",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-feedback-b",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "field services business thread",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "purpose": "Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "feedback",
+      "diagnostic_tags": [
+        "thread",
+        "feedback",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-feedback-c",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "education network thread",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "purpose": "Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "feedback",
+      "diagnostic_tags": [
+        "thread",
+        "feedback",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-feedback-d",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "research studio thread",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "purpose": "Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "feedback",
+      "diagnostic_tags": [
+        "thread",
+        "feedback",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-feedback-e",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "housing association thread",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "purpose": "Current recruiter gives individualized candidacy feedback and concrete reasoning. Multiple stale interview invitations and reminders are quoted beneath it, including calendar links.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "feedback",
+      "diagnostic_tags": [
+        "thread",
+        "feedback",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-status-a",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative thread",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "purpose": "Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "status",
+      "diagnostic_tags": [
+        "thread",
+        "status",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-status-b",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "field services business thread",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "purpose": "Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "status",
+      "diagnostic_tags": [
+        "thread",
+        "status",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-status-c",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "education network thread",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "purpose": "Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "status",
+      "diagnostic_tags": [
+        "thread",
+        "status",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-status-d",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "research studio thread",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "purpose": "Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "status",
+      "diagnostic_tags": [
+        "thread",
+        "status",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-status-e",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "housing association thread",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "purpose": "Current human recruiter clarifies an uncertain hiring status in direct response to recipient question, with personal explanation. Old quoted interview scheduling fills most of body.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "status",
+      "diagnostic_tags": [
+        "thread",
+        "status",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-new-slot-a",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative thread",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "purpose": "Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "new-slot",
+      "diagnostic_tags": [
+        "thread",
+        "new-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-new-slot-b",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "field services business thread",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "purpose": "Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "new-slot",
+      "diagnostic_tags": [
+        "thread",
+        "new-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-new-slot-c",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "education network thread",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "purpose": "Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "new-slot",
+      "diagnostic_tags": [
+        "thread",
+        "new-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-new-slot-d",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "research studio thread",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "purpose": "Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "new-slot",
+      "diagnostic_tags": [
+        "thread",
+        "new-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-new-slot-e",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "housing association thread",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "purpose": "Latest sender negotiates new meeting slot. Older quoted recruiter feedback dominates length; current reply is only routine booking mechanics.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "new-slot",
+      "diagnostic_tags": [
+        "thread",
+        "new-slot",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-signature-a",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "arts cooperative thread",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "purpose": "Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "signature",
+      "diagnostic_tags": [
+        "thread",
+        "signature",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-signature-b",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "field services business thread",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "purpose": "Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "signature",
+      "diagnostic_tags": [
+        "thread",
+        "signature",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-signature-c",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "education network thread",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "purpose": "Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "signature",
+      "diagnostic_tags": [
+        "thread",
+        "signature",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-signature-d",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "research studio thread",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "purpose": "Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "signature",
+      "diagnostic_tags": [
+        "thread",
+        "signature",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-thread-signature-e",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "housing association thread",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "purpose": "Latest human gives detailed advice or individual clarification. Generic calendar link in signature and obsolete quoted invitation are incidental.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "signature",
+      "diagnostic_tags": [
+        "thread",
+        "signature",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-statement-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts cooperative finance",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "purpose": "Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "statement",
+      "diagnostic_tags": [
+        "finance",
+        "statement",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-statement-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field services business finance",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "purpose": "Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "statement",
+      "diagnostic_tags": [
+        "finance",
+        "statement",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-statement-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education network finance",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "purpose": "Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "statement",
+      "diagnostic_tags": [
+        "finance",
+        "statement",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-statement-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "research studio finance",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "purpose": "Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "statement",
+      "diagnostic_tags": [
+        "finance",
+        "statement",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-statement-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "housing association finance",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "purpose": "Account statement is ready online. Masked account number, period/date, view-statement link, long boilerplate. No payment completion needed for account-record purpose.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "statement",
+      "diagnostic_tags": [
+        "finance",
+        "statement",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-renewal-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts cooperative finance",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "purpose": "Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "renewal",
+      "diagnostic_tags": [
+        "finance",
+        "renewal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-renewal-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field services business finance",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "purpose": "Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "renewal",
+      "diagnostic_tags": [
+        "finance",
+        "renewal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-renewal-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education network finance",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "purpose": "Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "renewal",
+      "diagnostic_tags": [
+        "finance",
+        "renewal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-renewal-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "research studio finance",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "purpose": "Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "renewal",
+      "diagnostic_tags": [
+        "finance",
+        "renewal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-renewal-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "housing association finance",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "purpose": "Existing subscription upcoming auto-renewal charge, future date and payment method, update billing link, no payment completed yet.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "renewal",
+      "diagnostic_tags": [
+        "finance",
+        "renewal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-receipt-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts cooperative finance",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "purpose": "Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "receipt",
+      "diagnostic_tags": [
+        "finance",
+        "receipt",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-receipt-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field services business finance",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "purpose": "Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "receipt",
+      "diagnostic_tags": [
+        "finance",
+        "receipt",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-receipt-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education network finance",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "purpose": "Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "receipt",
+      "diagnostic_tags": [
+        "finance",
+        "receipt",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-receipt-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "research studio finance",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "purpose": "Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "receipt",
+      "diagnostic_tags": [
+        "finance",
+        "receipt",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-receipt-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "housing association finance",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "purpose": "Payment already completed; receipt ID, amount and account details; neutral subscription-management footer.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "receipt",
+      "diagnostic_tags": [
+        "finance",
+        "receipt",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-offer-a",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "arts cooperative finance",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "purpose": "Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "offer",
+      "diagnostic_tags": [
+        "finance",
+        "offer",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-offer-b",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "field services business finance",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "purpose": "Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "offer",
+      "diagnostic_tags": [
+        "finance",
+        "offer",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-offer-c",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "education network finance",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "purpose": "Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "offer",
+      "diagnostic_tags": [
+        "finance",
+        "offer",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-offer-d",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "research studio finance",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "purpose": "Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "offer",
+      "diagnostic_tags": [
+        "finance",
+        "offer",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-offer-e",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "housing association finance",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "purpose": "Persuasive new subscription sales offer shows prices and payment methods, but recipient has no existing account commitment.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "offer",
+      "diagnostic_tags": [
+        "finance",
+        "offer",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-consultation-a",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative finance",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "purpose": "Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "consultation",
+      "diagnostic_tags": [
+        "finance",
+        "consultation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-consultation-b",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "field services business finance",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "purpose": "Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "consultation",
+      "diagnostic_tags": [
+        "finance",
+        "consultation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-consultation-c",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "education network finance",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "purpose": "Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "consultation",
+      "diagnostic_tags": [
+        "finance",
+        "consultation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-consultation-d",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "research studio finance",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "purpose": "Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "consultation",
+      "diagnostic_tags": [
+        "finance",
+        "consultation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-consultation-e",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "housing association finance",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "purpose": "Specific paid expert consultation opportunity invitation, accept/decline request and long compliance footer. Stated hourly rate is proposed compensation, not a receipt.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "consultation",
+      "diagnostic_tags": [
+        "finance",
+        "consultation",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-policy-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative finance",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "purpose": "Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "policy",
+      "diagnostic_tags": [
+        "finance",
+        "policy",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-policy-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business finance",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "purpose": "Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "policy",
+      "diagnostic_tags": [
+        "finance",
+        "policy",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-policy-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network finance",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "purpose": "Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "policy",
+      "diagnostic_tags": [
+        "finance",
+        "policy",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-policy-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio finance",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "purpose": "Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "policy",
+      "diagnostic_tags": [
+        "finance",
+        "policy",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-finance-policy-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association finance",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "purpose": "Mandatory service policy or subprocessors update with billing support links but no discrete charge/statement/commitment record.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "policy",
+      "diagnostic_tags": [
+        "finance",
+        "policy",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-ack-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative operations",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "purpose": "Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-ack",
+      "diagnostic_tags": [
+        "operations",
+        "application-ack",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-ack-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business operations",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "purpose": "Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-ack",
+      "diagnostic_tags": [
+        "operations",
+        "application-ack",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-ack-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network operations",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "purpose": "Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-ack",
+      "diagnostic_tags": [
+        "operations",
+        "application-ack",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-ack-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio operations",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "purpose": "Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-ack",
+      "diagnostic_tags": [
+        "operations",
+        "application-ack",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-ack-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association operations",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "purpose": "Automated application receipt expressed as polite appreciation and review of qualifications, subject only job title or thanks; conditional future interview wording, careers footer.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-ack",
+      "diagnostic_tags": [
+        "operations",
+        "application-ack",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-reject-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative operations",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "purpose": "Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-reject",
+      "diagnostic_tags": [
+        "operations",
+        "application-reject",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-reject-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business operations",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "purpose": "Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-reject",
+      "diagnostic_tags": [
+        "operations",
+        "application-reject",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-reject-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network operations",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "purpose": "Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-reject",
+      "diagnostic_tags": [
+        "operations",
+        "application-reject",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-reject-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio operations",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "purpose": "Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-reject",
+      "diagnostic_tags": [
+        "operations",
+        "application-reject",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-application-reject-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association operations",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "purpose": "Automated hiring rejection buried halfway into warm aspirational prose, generic thanks and careers footer; no actual individualized reasoning.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "application-reject",
+      "diagnostic_tags": [
+        "operations",
+        "application-reject",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-document-share-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative operations",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "purpose": "Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "document-share",
+      "diagnostic_tags": [
+        "operations",
+        "document-share",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-document-share-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business operations",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "purpose": "Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "document-share",
+      "diagnostic_tags": [
+        "operations",
+        "document-share",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-document-share-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network operations",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "purpose": "Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "document-share",
+      "diagnostic_tags": [
+        "operations",
+        "document-share",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-document-share-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio operations",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "purpose": "Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "document-share",
+      "diagnostic_tags": [
+        "operations",
+        "document-share",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-document-share-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association operations",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "purpose": "Very short service-generated document-share notice phrased as I have shared an item, title and link. Do not include document contents; URLs contain plausible long invented parameters.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "document-share",
+      "diagnostic_tags": [
+        "operations",
+        "document-share",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-subscription-welcome-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative operations",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "purpose": "New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "subscription-welcome",
+      "diagnostic_tags": [
+        "operations",
+        "subscription-welcome",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-subscription-welcome-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business operations",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "purpose": "New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "subscription-welcome",
+      "diagnostic_tags": [
+        "operations",
+        "subscription-welcome",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-subscription-welcome-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network operations",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "purpose": "New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "subscription-welcome",
+      "diagnostic_tags": [
+        "operations",
+        "subscription-welcome",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-subscription-welcome-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio operations",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "purpose": "New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "subscription-welcome",
+      "diagnostic_tags": [
+        "operations",
+        "subscription-welcome",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-subscription-welcome-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association operations",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "purpose": "New subscriber welcome confirms enrollment and delivery cadence, routine reply-to-improve-delivery request, no delivered article or material sales pitch.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "subscription-welcome",
+      "diagnostic_tags": [
+        "operations",
+        "subscription-welcome",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-pitch-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "promotions/outreach"
+      ],
+      "topic": "arts cooperative operations",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "purpose": "New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-pitch",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-pitch-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "promotions/outreach"
+      ],
+      "topic": "field services business operations",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "purpose": "New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-pitch",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-pitch-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "promotions/outreach"
+      ],
+      "topic": "education network operations",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "purpose": "New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-pitch",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-pitch-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "promotions/outreach"
+      ],
+      "topic": "research studio operations",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "purpose": "New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-pitch",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-pitch-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "promotions/outreach"
+      ],
+      "topic": "housing association operations",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "purpose": "New subscriber onboarding confirms setup and independently contains substantial solicitation to purchase a course or join paid membership, benefits and concrete CTA.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-pitch",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-guide-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "arts cooperative operations",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "purpose": "Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-guide",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-guide",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-guide-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "field services business operations",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "purpose": "Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-guide",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-guide",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-guide-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "education network operations",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "purpose": "Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-guide",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-guide",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-guide-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "research studio operations",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "purpose": "Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-guide",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-guide",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-operations-welcome-guide-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "housing association operations",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "purpose": "Subscription activation notice independently delivers substantive curated educational guide with headings, explanatory content and publication identity, no substantive pitch.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "welcome-guide",
+      "diagnostic_tags": [
+        "operations",
+        "welcome-guide",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-security-news-a",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "purpose": "Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-news",
+      "diagnostic_tags": [
+        "editorial",
+        "security-news",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-security-news-b",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "purpose": "Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-news",
+      "diagnostic_tags": [
+        "editorial",
+        "security-news",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-security-news-c",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "purpose": "Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-news",
+      "diagnostic_tags": [
+        "editorial",
+        "security-news",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-security-news-d",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "purpose": "Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-news",
+      "diagnostic_tags": [
+        "editorial",
+        "security-news",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-security-news-e",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "purpose": "Recurring long substantive editorial article about security incidents, failed payments and meetings elsewhere. Subject contains Update. None are recipient account events. Modest related-reading/footer links.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-news",
+      "diagnostic_tags": [
+        "editorial",
+        "security-news",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-a",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "purpose": "Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-b",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "purpose": "Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-c",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "purpose": "Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-d",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "purpose": "Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-e",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "purpose": "Delivered curated educational product tutorial with multiple substantive how-to sections; neutral instructions, no sales persuasion.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-pitch-a",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "purpose": "Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-pitch-b",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "purpose": "Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-pitch-c",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "purpose": "Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-pitch-d",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "purpose": "Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-tutorial-pitch-e",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "purpose": "Delivered curated tutorial PLUS independent substantial commercial upgrade pitch with benefits and explicit paid-plan call to action.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "tutorial-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "tutorial-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-changelog-a",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "purpose": "Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "changelog",
+      "diagnostic_tags": [
+        "editorial",
+        "changelog",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-changelog-b",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "purpose": "Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "changelog",
+      "diagnostic_tags": [
+        "editorial",
+        "changelog",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-changelog-c",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "purpose": "Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "changelog",
+      "diagnostic_tags": [
+        "editorial",
+        "changelog",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-changelog-d",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "purpose": "Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "changelog",
+      "diagnostic_tags": [
+        "editorial",
+        "changelog",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-changelog-e",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "purpose": "Multi-section curated shipped-product release changelog for existing users with operational change descriptions, no upsell.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "changelog",
+      "diagnostic_tags": [
+        "editorial",
+        "changelog",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-vendor-a",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "purpose": "Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-vendor",
+      "diagnostic_tags": [
+        "editorial",
+        "article-vendor",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-vendor-b",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "purpose": "Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-vendor",
+      "diagnostic_tags": [
+        "editorial",
+        "article-vendor",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-vendor-c",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "purpose": "Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-vendor",
+      "diagnostic_tags": [
+        "editorial",
+        "article-vendor",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-vendor-d",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "purpose": "Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-vendor",
+      "diagnostic_tags": [
+        "editorial",
+        "article-vendor",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-vendor-e",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "purpose": "Substantive educational article delivered by an invented professional-services business. Commercial identity and links alone; no direct solicitation or service pitch.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-vendor",
+      "diagnostic_tags": [
+        "editorial",
+        "article-vendor",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-pitch-a",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "purpose": "Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "article-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-pitch-b",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "purpose": "Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "article-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-pitch-c",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "purpose": "Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "article-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-pitch-d",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "purpose": "Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "article-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-article-pitch-e",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "promotions/outreach"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "purpose": "Delivered substantive editorial article followed by a material sales pitch to book a paid advisory engagement with explicit benefits and action.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "article-pitch",
+      "diagnostic_tags": [
+        "editorial",
+        "article-pitch",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-events-bulletin-a",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "arts cooperative editorial",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "purpose": "Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "events-bulletin",
+      "diagnostic_tags": [
+        "editorial",
+        "events-bulletin",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-events-bulletin-b",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "field services business editorial",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "purpose": "Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "events-bulletin",
+      "diagnostic_tags": [
+        "editorial",
+        "events-bulletin",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-events-bulletin-c",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "education network editorial",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "purpose": "Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "events-bulletin",
+      "diagnostic_tags": [
+        "editorial",
+        "events-bulletin",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-events-bulletin-d",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "research studio editorial",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "purpose": "Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "events-bulletin",
+      "diagnostic_tags": [
+        "editorial",
+        "events-bulletin",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-editorial-events-bulletin-e",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "housing association editorial",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "purpose": "Monthly editorial bulletin with several concrete future event invitations, neutral article updates. No account-specific event-triggered change.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Body 2500-5500 bytes, meaningful prose/quoted history, not padding. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "events-bulletin",
+      "diagnostic_tags": [
+        "editorial",
+        "events-bulletin",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-discussion-a",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "arts cooperative community",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "purpose": "Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "discussion",
+      "diagnostic_tags": [
+        "community",
+        "discussion",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-discussion-b",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "field services business community",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "purpose": "Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "discussion",
+      "diagnostic_tags": [
+        "community",
+        "discussion",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-discussion-c",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "education network community",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "purpose": "Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "discussion",
+      "diagnostic_tags": [
+        "community",
+        "discussion",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-discussion-d",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "research studio community",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "purpose": "Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "discussion",
+      "diagnostic_tags": [
+        "community",
+        "discussion",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-discussion-e",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "housing association community",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "purpose": "Current member contributes arguments/questions to ongoing group conversation about invoices, meetings or cybersecurity; no current invitation or account event.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "discussion",
+      "diagnostic_tags": [
+        "community",
+        "discussion",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-personal-a",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "arts cooperative community",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "purpose": "Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "personal",
+      "diagnostic_tags": [
+        "community",
+        "personal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-personal-b",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "field services business community",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "purpose": "Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "personal",
+      "diagnostic_tags": [
+        "community",
+        "personal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-personal-c",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "education network community",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "purpose": "Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "personal",
+      "diagnostic_tags": [
+        "community",
+        "personal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-personal-d",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "research studio community",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "purpose": "Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "personal",
+      "diagnostic_tags": [
+        "community",
+        "personal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-personal-e",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "housing association community",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "purpose": "Friend shares substantive personal news and seeks individual advice, mentions a historical meeting but no new invitation.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "personal",
+      "diagnostic_tags": [
+        "community",
+        "personal",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-security-report-a",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts cooperative community",
+      "context": "Invent people, organizations, dates and circumstances in a arts cooperative. Use example.org domains only. Situation: Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "purpose": "Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "writing_style": "plain text with short current message and long realistic quoted history. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "community",
+        "security-report",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-security-report-b",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field services business community",
+      "context": "Invent people, organizations, dates and circumstances in a field services business. Use example.org domains only. Situation: Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "purpose": "Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "writing_style": "wrapped lines with verbose compliance and support footer. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "community",
+        "security-report",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-security-report-c",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education network community",
+      "context": "Invent people, organizations, dates and circumstances in a education network. Use example.org domains only. Situation: Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "purpose": "Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "writing_style": "messy HTML-to-text layout with repeated headings and links. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "community",
+        "security-report",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-security-report-d",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "research studio community",
+      "context": "Invent people, organizations, dates and circumstances in a research studio. Use example.org domains only. Situation: Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "purpose": "Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "writing_style": "polite conversational phrasing, Unicode punctuation, low-information subject. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "community",
+        "security-report",
+        "lw-purpose-boundaries-v2"
+      ]
+    },
+    {
+      "family_id": "r11b-community-security-report-e",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "housing association community",
+      "context": "Invent people, organizations, dates and circumstances in a housing association. Use example.org domains only. Situation: Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "purpose": "Automatic authentication aggregate report notice identifying invented domain and date range, sparse body and attachment filename; no unseen attachment contents.",
+      "writing_style": "formal service template with dates, masked IDs and URLs. Vary between terse 100-500 byte templates and 1000-3500 byte realistic messages. Do not force long length for naturally brief notices. Preserve naturally misleading incidental wording; never explain the intended taxonomy or use negative-purpose disclaimers.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "community",
+        "security-report",
+        "lw-purpose-boundaries-v2"
+      ]
+    }
+  ],
+  "diversity": {
+    "description": "32 purpose contrasts x five delivery contexts; related scenario suites share model split, fresh invented mail only."
+  }
+}
