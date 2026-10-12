@@ -14,7 +14,7 @@ Categories: correspondence; transactions/records; alerts/updates; newsletters/pu
 
 ## Generation, review and quality
 
-The cohort preserves 247 existing Sol-generated records. Future generation and controlled mutation use Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`), requested reasoning effort `low`. Review/re-review remains Nous `openai/gpt-6.1-sol` in isolated requests. Final provenance must identify actual stage/record models; the entire cohort must not be described as Luna-generated. Review packets contain opaque IDs, frozen rubric/anchors, subject/body and schema only. No tools/retrieval or previous answers; email instructions are untrusted data. Positive labels require evidence spans; absence needs no quotation. Preserve first/latest judgments and final stable-consensus decisions separately. Intended labels remain design hypotheses.
+The cohort preserves 248 actual Sol-produced records (247 previously finalized plus one cached generation). Future generation and controlled mutation use Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`), requested reasoning effort `low`. Review/re-review remains Nous `openai/gpt-6.1-sol` in isolated requests. Final provenance must identify actual stage/record models; the entire cohort must not be described as Luna-generated. Review packets contain opaque IDs, frozen rubric/anchors, subject/body and schema only. No tools/retrieval or previous answers; email instructions are untrusted data. Positive labels require evidence spans; absence needs no quotation. Preserve first/latest judgments and final stable-consensus decisions separately. Intended labels remain design hypotheses.
 
 Controlled mutations assess applicability, actual content change, mechanical fact anchors and observed label relation separately. Surface preservation is not semantic truth. Unknowns/disagreement remain unresolved; valid text is not rewritten to force agreement. Family descendants inherit lineage/split fixtures. Related scenarios sharing factual themes are also correlated.
 
@@ -31,3 +31,18 @@ The publisher offers the dataset under MIT to the extent applicable rights are h
 Existing-record native QA covered 100 records with nonopaque identifiers and 147 with opaque identifiers. Seventeen exclusions are provisional. These conditions are not equivalent to a uniformly blind audit; final observed distributions and retained counts are still pending.
 
 Luna catalog rates are $0.10 prompt, $0.50 completion including reasoning and $0.125 cache-write per million tokens; conservative input reservation uses $0.225. Subscription-reported charges are not verified attributable invoice cost. Cohort and cumulative caps remain $25 and $30 respectively.
+
+## Model-aware assembly and verification — pending final release
+
+The adjunct `tools/assemble_model_release.py` assembles mixed-model provenance offline; `tools/verify_dataset.py` checks dataset schema v1 and model declarations. Neither generates or publishes. Example using local placeholders:
+
+```sh
+python tools/assemble_model_release.py --runs ./runs/ordinary ./runs/challenge ./runs/context-sensitive --out ./datasets/letterweave-0.1.0 --authorization ./release-authorization.json --qa-exclusions ./qa-exclusions.json
+python tools/verify_dataset.py --dataset ./datasets/letterweave-0.1.0
+```
+
+Per record, `generation_model` is the normalized actual alias and `generation_model_version` retains the raw provider generation-model identifier/version; `review_models` and `review_model_versions` similarly preserve normalized actual review aliases and raw versions. Source `role_models` declares planned roles separately from `actual_generation_models`, `actual_generation_model_versions`, `actual_review_models` and `actual_review_model_versions`, which describe accepted-record evidence. A planned Luna generation role must not relabel old cached Sol output as Luna.
+
+There are 248 actual Sol-produced records: 247 previously finalized plus one cached generation. Remaining generation uses Luna; no exact final Luna count is asserted before completion. The native-QA snapshot covers 267 records, including nineteen new Luna records and the cached Sol record. That twenty-record increment has nineteen accepted and one held, with no additional accepted-record exclusions. The earlier seventeen QA exclusions remain provisional quality decisions, not gold labels; the first 100 records used nonopaque IDs. Final retained counts remain pending.
+
+All 208 tests passed locally and in an isolated installed package, including adversarial raw-response and review-history checks. Remote CI evidence remains tied to its exact reviewed commit; the final dataset payload is still pending.
