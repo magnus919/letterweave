@@ -45,16 +45,6 @@
         "n": 9,
         "acceptable": 9
       }
-    },
-    "job-matches": {
-      "Letterweave-1.0-E2B": {
-        "n": 4,
-        "acceptable": 0
-      },
-      "Letterweave-1.1-E2B": {
-        "n": 4,
-        "acceptable": 0
-      }
     }
   },
   "synthetic_retained195": {
