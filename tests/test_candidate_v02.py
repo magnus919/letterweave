@@ -94,7 +94,7 @@ class CandidateTests(unittest.TestCase):
         self.assertNotIn('mutations',req['input']['scenario'])
 
     def test_rubric_decisions_are_explicit_versioned(self):
-        self.assertEqual(VERSION,'0.4.0')
+        self.assertEqual(VERSION,'0.5.0')
         text=json.dumps(RUBRIC)
         self.assertIn('completed-payment',text);self.assertIn('ordinary community discussion',text)
         self.assertIn('Do not invent hypothetical hidden purposes',text)

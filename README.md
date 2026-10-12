@@ -1,6 +1,10 @@
 # LetterWeave
 
-Original MIT tooling and a fresh synthetic English multi-label email corpus. Dataset 0.1.0 is assembled and verified locally; external publication status is separate. Model training and hosted inference are outside scope.
+Original MIT tooling and versioned synthetic English multi-label email corpora. Dataset 0.2.0 is assembled and verified locally; external publication status is separate. Model training and hosted inference are outside the generator pipeline.
+
+## Realistic received-mail generation
+
+Tooling 0.6.0 adds an opt-in [mail realism profile](docs/realism-profile.md) and a reproducible 160-family scenario inventory for dataset 0.2.0. It removes the fixed 2,200-byte body cap from this path and uses explicit provider token budgets instead. Long quoted histories, operational templates, and informative subject-only messages now have dedicated scenarios. Synthetic review remains advisory machine labeling.
 
 ## Run offline
 
@@ -41,6 +45,14 @@ Per-record `generation_model` and `review_models` are actual normalized aliases;
 All 217 tests passed locally and in an isolated installed package; all 35 critical mutants were caught. [PR 2](https://github.com/magnus919/letterweave/pull/2) records the exact reviewed head and remote-check evidence. Dataset verification passed; final retained counts are recorded below.
 
 Code is [MIT](LICENSE); data MIT is separate and limited to publisher-held rights. No provider models/services or third-party material are licensed. [Data card](docs/data-card.md), [licensing](docs/dataset-license.md), [readiness](docs/readiness-report.md) and [terms review](docs/current-provider-release-terms.md) describe remaining limits. No express dataset-only publication ban or general written-permission requirement was established; actual upstream applicability remains unresolved. See [dataset 0.1.0](datasets/letterweave-0.1.0/DATA_CARD.md).
+
+## Verified dataset 0.2.0
+
+The revision contains **1,158 retained emails from 978 families**: the original 855 records plus 303 new invented records. Fresh generation planned 320 candidates across 160 families; 15 were held and two were excluded for obvious purpose-signalling disclaimers. No cross-family duplicates were quarantined in the combined retained-corpus lexical screen.
+
+Family splits contain 755 training, 208 development and 195 test messages. The fresh subset contributes 182/65/56 messages respectively. Existing records retain their original labels and family split; new review guidance is separately versioned as `mail-realism-v1`. All labels remain machine-produced. Structural verification, lexical screening, and model review do not establish semantic quality or real-email accuracy. See [the 0.2.0 data card](datasets/letterweave-0.2.0/DATA_CARD.md).
+
+Validation passed all 222 offline tests, all 35 critical safeguard mutations, isolated installed-package checks and dataset payload verification. Public files exclude private messages, identifying information, raw provider responses, credentials and host paths.
 
 ## Verified dataset 0.1.0
 

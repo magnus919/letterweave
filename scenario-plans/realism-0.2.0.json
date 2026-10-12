@@ -1,0 +1,2768 @@
+{
+  "schema_version": 1,
+  "families": [
+    {
+      "family_id": "r02-application-received-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Automatic receipt of a job application; courteous thanks, no interview arranged. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic receipt of a job application; courteous thanks, no interview arranged.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-received",
+      "diagnostic_tags": [
+        "application-received",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-received-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Automatic receipt of a job application; courteous thanks, no interview arranged. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic receipt of a job application; courteous thanks, no interview arranged.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-received",
+      "diagnostic_tags": [
+        "application-received",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-received-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Automatic receipt of a job application; courteous thanks, no interview arranged. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic receipt of a job application; courteous thanks, no interview arranged.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-received",
+      "diagnostic_tags": [
+        "application-received",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-received-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Automatic receipt of a job application; courteous thanks, no interview arranged. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic receipt of a job application; courteous thanks, no interview arranged.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-received",
+      "diagnostic_tags": [
+        "application-received",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-received-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Automatic receipt of a job application; courteous thanks, no interview arranged. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic receipt of a job application; courteous thanks, no interview arranged.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-received",
+      "diagnostic_tags": [
+        "application-received",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-rejected-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-rejected",
+      "diagnostic_tags": [
+        "application-rejected",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-rejected-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-rejected",
+      "diagnostic_tags": [
+        "application-rejected",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-rejected-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-rejected",
+      "diagnostic_tags": [
+        "application-rejected",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-rejected-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-rejected",
+      "diagnostic_tags": [
+        "application-rejected",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-rejected-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic rejection after review; warm encouragement and a small careers footer, no substantive individual feedback.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "application-rejected",
+      "diagnostic_tags": [
+        "application-rejected",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-record-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "application-record",
+      "diagnostic_tags": [
+        "application-record",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-record-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "application-record",
+      "diagnostic_tags": [
+        "application-record",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-record-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "application-record",
+      "diagnostic_tags": [
+        "application-record",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-record-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "application-record",
+      "diagnostic_tags": [
+        "application-record",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-application-record-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Successful submission with a retained copy of application fields and a long invented resume; the included cover letter is record content.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "application-record",
+      "diagnostic_tags": [
+        "application-record",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-feedback-0",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "personal-feedback",
+      "diagnostic_tags": [
+        "personal-feedback",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-feedback-1",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "personal-feedback",
+      "diagnostic_tags": [
+        "personal-feedback",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-feedback-2",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "personal-feedback",
+      "diagnostic_tags": [
+        "personal-feedback",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-feedback-3",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "personal-feedback",
+      "diagnostic_tags": [
+        "personal-feedback",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-feedback-4",
+      "case": "overlap",
+      "intended_labels": [
+        "correspondence",
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recruiter gives individualized feedback and clarification about a candidacy, with a stale quoted interview invitation; no new meeting request.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "personal-feedback",
+      "diagnostic_tags": [
+        "personal-feedback",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-recap-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-recap",
+      "diagnostic_tags": [
+        "meeting-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-recap-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-recap",
+      "diagnostic_tags": [
+        "meeting-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-recap-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-recap",
+      "diagnostic_tags": [
+        "meeting-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-recap-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-recap",
+      "diagnostic_tags": [
+        "meeting-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-recap-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recorder service reports notes ready for a completed meeting; mentions being invited to record, discussion topics, counts and old date; no invitation now.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-recap",
+      "diagnostic_tags": [
+        "meeting-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-recap-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-recap",
+      "diagnostic_tags": [
+        "community-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-recap-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-recap",
+      "diagnostic_tags": [
+        "community-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-recap-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-recap",
+      "diagnostic_tags": [
+        "community-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-recap-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-recap",
+      "diagnostic_tags": [
+        "community-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-recap-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automatic recording-ready notice for a completed club gathering; group topic and discussion counts do not make it current participation.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-recap",
+      "diagnostic_tags": [
+        "community-recap",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-confirmation-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-confirmation",
+      "diagnostic_tags": [
+        "meeting-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-confirmation-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-confirmation",
+      "diagnostic_tags": [
+        "meeting-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-confirmation-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-confirmation",
+      "diagnostic_tags": [
+        "meeting-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-confirmation-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-confirmation",
+      "diagnostic_tags": [
+        "meeting-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-confirmation-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Confirms a concrete future interview slot with location and calendar links; no personal exchange beyond mechanics.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-confirmation",
+      "diagnostic_tags": [
+        "meeting-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reminder-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Reminder to join a booked future meeting, concrete date and join link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Reminder to join a booked future meeting, concrete date and join link.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reminder",
+      "diagnostic_tags": [
+        "meeting-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reminder-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Reminder to join a booked future meeting, concrete date and join link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Reminder to join a booked future meeting, concrete date and join link.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reminder",
+      "diagnostic_tags": [
+        "meeting-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reminder-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Reminder to join a booked future meeting, concrete date and join link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Reminder to join a booked future meeting, concrete date and join link.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reminder",
+      "diagnostic_tags": [
+        "meeting-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reminder-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Reminder to join a booked future meeting, concrete date and join link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Reminder to join a booked future meeting, concrete date and join link.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reminder",
+      "diagnostic_tags": [
+        "meeting-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reminder-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Reminder to join a booked future meeting, concrete date and join link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Reminder to join a booked future meeting, concrete date and join link.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reminder",
+      "diagnostic_tags": [
+        "meeting-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reschedule-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: A currently booked appointment changed time; calendar notification and RSVP action. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "A currently booked appointment changed time; calendar notification and RSVP action.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reschedule",
+      "diagnostic_tags": [
+        "meeting-reschedule",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reschedule-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: A currently booked appointment changed time; calendar notification and RSVP action. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "A currently booked appointment changed time; calendar notification and RSVP action.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reschedule",
+      "diagnostic_tags": [
+        "meeting-reschedule",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reschedule-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: A currently booked appointment changed time; calendar notification and RSVP action. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "A currently booked appointment changed time; calendar notification and RSVP action.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reschedule",
+      "diagnostic_tags": [
+        "meeting-reschedule",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reschedule-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: A currently booked appointment changed time; calendar notification and RSVP action. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "A currently booked appointment changed time; calendar notification and RSVP action.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reschedule",
+      "diagnostic_tags": [
+        "meeting-reschedule",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-meeting-reschedule-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: A currently booked appointment changed time; calendar notification and RSVP action. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "A currently booked appointment changed time; calendar notification and RSVP action.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "meeting-reschedule",
+      "diagnostic_tags": [
+        "meeting-reschedule",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-routine-slot-0",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "routine-slot",
+      "diagnostic_tags": [
+        "routine-slot",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-routine-slot-1",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "routine-slot",
+      "diagnostic_tags": [
+        "routine-slot",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-routine-slot-2",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "routine-slot",
+      "diagnostic_tags": [
+        "routine-slot",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-routine-slot-3",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "routine-slot",
+      "diagnostic_tags": [
+        "routine-slot",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-routine-slot-4",
+      "case": "single",
+      "intended_labels": [
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Short human reply agreeing a meeting slot, with friendly greeting and signature; no substantive advice or personal exchange.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "routine-slot",
+      "diagnostic_tags": [
+        "routine-slot",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-calendar-signature-0",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "calendar-signature",
+      "diagnostic_tags": [
+        "calendar-signature",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-calendar-signature-1",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "calendar-signature",
+      "diagnostic_tags": [
+        "calendar-signature",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-calendar-signature-2",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "calendar-signature",
+      "diagnostic_tags": [
+        "calendar-signature",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-calendar-signature-3",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "calendar-signature",
+      "diagnostic_tags": [
+        "calendar-signature",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-calendar-signature-4",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Substantive individual clarification with generic calendar link in signature; historical meeting request quoted, no current invitation.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "calendar-signature",
+      "diagnostic_tags": [
+        "calendar-signature",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-task-deadline-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Task system lists overdue tasks and due dates with links; deadlines are not invitations. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Task system lists overdue tasks and due dates with links; deadlines are not invitations.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "task-deadline",
+      "diagnostic_tags": [
+        "task-deadline",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-task-deadline-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Task system lists overdue tasks and due dates with links; deadlines are not invitations. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Task system lists overdue tasks and due dates with links; deadlines are not invitations.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "task-deadline",
+      "diagnostic_tags": [
+        "task-deadline",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-task-deadline-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Task system lists overdue tasks and due dates with links; deadlines are not invitations. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Task system lists overdue tasks and due dates with links; deadlines are not invitations.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "task-deadline",
+      "diagnostic_tags": [
+        "task-deadline",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-task-deadline-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Task system lists overdue tasks and due dates with links; deadlines are not invitations. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Task system lists overdue tasks and due dates with links; deadlines are not invitations.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "task-deadline",
+      "diagnostic_tags": [
+        "task-deadline",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-task-deadline-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Task system lists overdue tasks and due dates with links; deadlines are not invitations. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Task system lists overdue tasks and due dates with links; deadlines are not invitations.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "task-deadline",
+      "diagnostic_tags": [
+        "task-deadline",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-connection-failed-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "connection-failed",
+      "diagnostic_tags": [
+        "connection-failed",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-connection-failed-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "connection-failed",
+      "diagnostic_tags": [
+        "connection-failed",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-connection-failed-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "connection-failed",
+      "diagnostic_tags": [
+        "connection-failed",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-connection-failed-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "connection-failed",
+      "diagnostic_tags": [
+        "connection-failed",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-connection-failed-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Calendar integration lost authentication; reconnect instructions, no actual meeting scheduling.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "connection-failed",
+      "diagnostic_tags": [
+        "connection-failed",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-delivery-failure-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "delivery-failure",
+      "diagnostic_tags": [
+        "delivery-failure",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-delivery-failure-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "delivery-failure",
+      "diagnostic_tags": [
+        "delivery-failure",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-delivery-failure-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "delivery-failure",
+      "diagnostic_tags": [
+        "delivery-failure",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-delivery-failure-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "delivery-failure",
+      "diagnostic_tags": [
+        "delivery-failure",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-delivery-failure-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivery failure with SMTP diagnostics, error code and recipient; no interpersonal conversation.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "delivery-failure",
+      "diagnostic_tags": [
+        "delivery-failure",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "security-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "security-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "security-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "security-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Automated message-authentication aggregate report with short explanatory body and named compressed attachment; do not invent attachment contents.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "security-report",
+      "diagnostic_tags": [
+        "security-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-subject-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "security-report-subject",
+      "diagnostic_tags": [
+        "security-report-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-subject-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "security-report-subject",
+      "diagnostic_tags": [
+        "security-report-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-subject-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "security-report-subject",
+      "diagnostic_tags": [
+        "security-report-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-subject-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "security-report-subject",
+      "diagnostic_tags": [
+        "security-report-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-security-report-subject-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body, informative subject identifying domain-authentication aggregate report, invented report IDs and example.org domain.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "security-report-subject",
+      "diagnostic_tags": [
+        "security-report-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-ambiguous-attachment-0",
+      "case": "missing_context",
+      "intended_labels": [],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "uncertainty",
+      "stratum": "ambiguous-attachment",
+      "diagnostic_tags": [
+        "ambiguous-attachment",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-ambiguous-attachment-1",
+      "case": "missing_context",
+      "intended_labels": [],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "uncertainty",
+      "stratum": "ambiguous-attachment",
+      "diagnostic_tags": [
+        "ambiguous-attachment",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-ambiguous-attachment-2",
+      "case": "missing_context",
+      "intended_labels": [],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "uncertainty",
+      "stratum": "ambiguous-attachment",
+      "diagnostic_tags": [
+        "ambiguous-attachment",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-ambiguous-attachment-3",
+      "case": "missing_context",
+      "intended_labels": [],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "uncertainty",
+      "stratum": "ambiguous-attachment",
+      "diagnostic_tags": [
+        "ambiguous-attachment",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-ambiguous-attachment-4",
+      "case": "missing_context",
+      "intended_labels": [],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Subject is Document, body says See attached; absent attachment content makes relevant categories unknown; do not force all-negative.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "uncertainty",
+      "stratum": "ambiguous-attachment",
+      "diagnostic_tags": [
+        "ambiguous-attachment",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-scheduled-subject-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "scheduled-subject",
+      "diagnostic_tags": [
+        "scheduled-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-scheduled-subject-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "scheduled-subject",
+      "diagnostic_tags": [
+        "scheduled-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-scheduled-subject-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "scheduled-subject",
+      "diagnostic_tags": [
+        "scheduled-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-scheduled-subject-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "scheduled-subject",
+      "diagnostic_tags": [
+        "scheduled-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-scheduled-subject-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Empty body with subject stating a new concrete webinar invitation and specific future date/time; evidence only in subject.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Keep body empty; put observable evidence only in subject.",
+      "slice": "challenge",
+      "stratum": "scheduled-subject",
+      "diagnostic_tags": [
+        "scheduled-subject",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-statement-available-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Bank account statement available with statement date and masked account; long legal footer is not marketing. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Bank account statement available with statement date and masked account; long legal footer is not marketing.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "statement-available",
+      "diagnostic_tags": [
+        "statement-available",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-statement-available-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Bank account statement available with statement date and masked account; long legal footer is not marketing. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Bank account statement available with statement date and masked account; long legal footer is not marketing.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "statement-available",
+      "diagnostic_tags": [
+        "statement-available",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-statement-available-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Bank account statement available with statement date and masked account; long legal footer is not marketing. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Bank account statement available with statement date and masked account; long legal footer is not marketing.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "statement-available",
+      "diagnostic_tags": [
+        "statement-available",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-statement-available-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Bank account statement available with statement date and masked account; long legal footer is not marketing. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Bank account statement available with statement date and masked account; long legal footer is not marketing.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "statement-available",
+      "diagnostic_tags": [
+        "statement-available",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-statement-available-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Bank account statement available with statement date and masked account; long legal footer is not marketing. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Bank account statement available with statement date and masked account; long legal footer is not marketing.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "statement-available",
+      "diagnostic_tags": [
+        "statement-available",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-paid-receipt-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Payment completed with amount paid, receipt number and invoice lines; include subscription management link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Payment completed with amount paid, receipt number and invoice lines; include subscription management link.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "paid-receipt",
+      "diagnostic_tags": [
+        "paid-receipt",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-paid-receipt-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Payment completed with amount paid, receipt number and invoice lines; include subscription management link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Payment completed with amount paid, receipt number and invoice lines; include subscription management link.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "paid-receipt",
+      "diagnostic_tags": [
+        "paid-receipt",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-paid-receipt-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Payment completed with amount paid, receipt number and invoice lines; include subscription management link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Payment completed with amount paid, receipt number and invoice lines; include subscription management link.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "paid-receipt",
+      "diagnostic_tags": [
+        "paid-receipt",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-paid-receipt-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Payment completed with amount paid, receipt number and invoice lines; include subscription management link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Payment completed with amount paid, receipt number and invoice lines; include subscription management link.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "paid-receipt",
+      "diagnostic_tags": [
+        "paid-receipt",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-paid-receipt-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Payment completed with amount paid, receipt number and invoice lines; include subscription management link. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Payment completed with amount paid, receipt number and invoice lines; include subscription management link.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "paid-receipt",
+      "diagnostic_tags": [
+        "paid-receipt",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-renewal-reminder-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Account subscription will renew on a future date; amount due and payment update link, no payment completed yet. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Account subscription will renew on a future date; amount due and payment update link, no payment completed yet.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "renewal-reminder",
+      "diagnostic_tags": [
+        "renewal-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-renewal-reminder-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Account subscription will renew on a future date; amount due and payment update link, no payment completed yet. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Account subscription will renew on a future date; amount due and payment update link, no payment completed yet.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "renewal-reminder",
+      "diagnostic_tags": [
+        "renewal-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-renewal-reminder-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Account subscription will renew on a future date; amount due and payment update link, no payment completed yet. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Account subscription will renew on a future date; amount due and payment update link, no payment completed yet.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "renewal-reminder",
+      "diagnostic_tags": [
+        "renewal-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-renewal-reminder-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Account subscription will renew on a future date; amount due and payment update link, no payment completed yet. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Account subscription will renew on a future date; amount due and payment update link, no payment completed yet.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "renewal-reminder",
+      "diagnostic_tags": [
+        "renewal-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-renewal-reminder-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "transactions/records"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Account subscription will renew on a future date; amount due and payment update link, no payment completed yet. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Account subscription will renew on a future date; amount due and payment update link, no payment completed yet.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "renewal-reminder",
+      "diagnostic_tags": [
+        "renewal-reminder",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-report-confirmation-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "report-confirmation",
+      "diagnostic_tags": [
+        "report-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-report-confirmation-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "report-confirmation",
+      "diagnostic_tags": [
+        "report-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-report-confirmation-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "report-confirmation",
+      "diagnostic_tags": [
+        "report-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-report-confirmation-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "report-confirmation",
+      "diagnostic_tags": [
+        "report-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-report-confirmation-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Trust/safety service requests confirmation of a filed abuse report; community word appears but no group discussion.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "report-confirmation",
+      "diagnostic_tags": [
+        "report-confirmation",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-password-reset-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Password reset notification with expiry and long legal/security footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Password reset notification with expiry and long legal/security footer.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "password-reset",
+      "diagnostic_tags": [
+        "password-reset",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-password-reset-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Password reset notification with expiry and long legal/security footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Password reset notification with expiry and long legal/security footer.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "password-reset",
+      "diagnostic_tags": [
+        "password-reset",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-password-reset-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Password reset notification with expiry and long legal/security footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Password reset notification with expiry and long legal/security footer.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "password-reset",
+      "diagnostic_tags": [
+        "password-reset",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-password-reset-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Password reset notification with expiry and long legal/security footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Password reset notification with expiry and long legal/security footer.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "password-reset",
+      "diagnostic_tags": [
+        "password-reset",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-password-reset-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Password reset notification with expiry and long legal/security footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Password reset notification with expiry and long legal/security footer.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "password-reset",
+      "diagnostic_tags": [
+        "password-reset",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-service-change-0",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "service-change",
+      "diagnostic_tags": [
+        "service-change",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-service-change-1",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "service-change",
+      "diagnostic_tags": [
+        "service-change",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-service-change-2",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "service-change",
+      "diagnostic_tags": [
+        "service-change",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-service-change-3",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "service-change",
+      "diagnostic_tags": [
+        "service-change",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-service-change-4",
+      "case": "single",
+      "intended_labels": [
+        "alerts/updates"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Mandatory subprocessors or service policy update notice; conversational wording but no marketing offer.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "service-change",
+      "diagnostic_tags": [
+        "service-change",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-product-changelog-0",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "product-changelog",
+      "diagnostic_tags": [
+        "product-changelog",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-product-changelog-1",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "product-changelog",
+      "diagnostic_tags": [
+        "product-changelog",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-product-changelog-2",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "product-changelog",
+      "diagnostic_tags": [
+        "product-changelog",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-product-changelog-3",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "product-changelog",
+      "diagnostic_tags": [
+        "product-changelog",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-product-changelog-4",
+      "case": "overlap",
+      "intended_labels": [
+        "alerts/updates",
+        "newsletters/publications"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Curated release changelog announcing multiple shipped product changes; no upsell and no event invitation.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "product-changelog",
+      "diagnostic_tags": [
+        "product-changelog",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-editorial-article-0",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "editorial-article",
+      "diagnostic_tags": [
+        "editorial-article",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-editorial-article-1",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "editorial-article",
+      "diagnostic_tags": [
+        "editorial-article",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-editorial-article-2",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "editorial-article",
+      "diagnostic_tags": [
+        "editorial-article",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-editorial-article-3",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "editorial-article",
+      "diagnostic_tags": [
+        "editorial-article",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-editorial-article-4",
+      "case": "single",
+      "intended_labels": [
+        "newsletters/publications"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Delivered long original editorial article with headings and recurring publication identity; modest related-reading, share and unsubscribe footer, no substantive pitch.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "editorial-article",
+      "diagnostic_tags": [
+        "editorial-article",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-newsletter-events-0",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "newsletter-events",
+      "diagnostic_tags": [
+        "newsletter-events",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-newsletter-events-1",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "newsletter-events",
+      "diagnostic_tags": [
+        "newsletter-events",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-newsletter-events-2",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "newsletter-events",
+      "diagnostic_tags": [
+        "newsletter-events",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-newsletter-events-3",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "newsletter-events",
+      "diagnostic_tags": [
+        "newsletter-events",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-newsletter-events-4",
+      "case": "overlap",
+      "intended_labels": [
+        "newsletters/publications",
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Recurring curated bulletin with editorial updates and several concrete future event invitations; ordinary subscription footer.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "newsletter-events",
+      "diagnostic_tags": [
+        "newsletter-events",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-marketing-report-0",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "marketing-report",
+      "diagnostic_tags": [
+        "marketing-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-marketing-report-1",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "marketing-report",
+      "diagnostic_tags": [
+        "marketing-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-marketing-report-2",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "marketing-report",
+      "diagnostic_tags": [
+        "marketing-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-marketing-report-3",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "marketing-report",
+      "diagnostic_tags": [
+        "marketing-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-marketing-report-4",
+      "case": "single",
+      "intended_labels": [
+        "promotions/outreach"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Persuasive campaign asking reader to register for an upcoming research report; preview benefits, no delivered substantive editorial article.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "marketing-report",
+      "diagnostic_tags": [
+        "marketing-report",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-consultation-outreach-0",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "consultation-outreach",
+      "diagnostic_tags": [
+        "consultation-outreach",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-consultation-outreach-1",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "consultation-outreach",
+      "diagnostic_tags": [
+        "consultation-outreach",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-consultation-outreach-2",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "consultation-outreach",
+      "diagnostic_tags": [
+        "consultation-outreach",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-consultation-outreach-3",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "consultation-outreach",
+      "diagnostic_tags": [
+        "consultation-outreach",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-consultation-outreach-4",
+      "case": "overlap",
+      "intended_labels": [
+        "promotions/outreach",
+        "scheduling/invitations"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Individualized solicitation to accept a specific paid expert consultation; price offer not a completed receipt, long compliance footer.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Use 2800-5500 bytes of meaningful prose, records or realistic quoted history, not repeated padding.",
+      "slice": "challenge",
+      "stratum": "consultation-outreach",
+      "diagnostic_tags": [
+        "consultation-outreach",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-discussion-0",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-discussion",
+      "diagnostic_tags": [
+        "community-discussion",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-discussion-1",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-discussion",
+      "diagnostic_tags": [
+        "community-discussion",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-discussion-2",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-discussion",
+      "diagnostic_tags": [
+        "community-discussion",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-discussion-3",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-discussion",
+      "diagnostic_tags": [
+        "community-discussion",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-community-discussion-4",
+      "case": "single",
+      "intended_labels": [
+        "community/discussions"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Member contributes arguments and questions to an ongoing group discussion, no event and no pitch; a normal name/signature not personal correspondence.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "community-discussion",
+      "diagnostic_tags": [
+        "community-discussion",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-news-0",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Friend shares substantive personal news and asks for individual advice; no business solicitation or event. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Friend shares substantive personal news and asks for individual advice; no business solicitation or event.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "personal-news",
+      "diagnostic_tags": [
+        "personal-news",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-news-1",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Friend shares substantive personal news and asks for individual advice; no business solicitation or event. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Friend shares substantive personal news and asks for individual advice; no business solicitation or event.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "personal-news",
+      "diagnostic_tags": [
+        "personal-news",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-news-2",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Friend shares substantive personal news and asks for individual advice; no business solicitation or event. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Friend shares substantive personal news and asks for individual advice; no business solicitation or event.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "personal-news",
+      "diagnostic_tags": [
+        "personal-news",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-news-3",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Friend shares substantive personal news and asks for individual advice; no business solicitation or event. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Friend shares substantive personal news and asks for individual advice; no business solicitation or event.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "personal-news",
+      "diagnostic_tags": [
+        "personal-news",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-personal-news-4",
+      "case": "single",
+      "intended_labels": [
+        "correspondence"
+      ],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Friend shares substantive personal news and asks for individual advice; no business solicitation or event. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Friend shares substantive personal news and asks for individual advice; no business solicitation or event.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "personal-news",
+      "diagnostic_tags": [
+        "personal-news",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-no-purpose-0",
+      "case": "no_match_candidate",
+      "intended_labels": [],
+      "topic": "arts nonprofit membership and volunteer coordination",
+      "context": "Invent an email in a arts nonprofit serving membership and volunteer coordination. Situation: Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence.",
+      "writing_style": "bulleted web-to-text layout with repeated links and copyright footer. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "no-purpose",
+      "diagnostic_tags": [
+        "no-purpose",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-no-purpose-1",
+      "case": "no_match_candidate",
+      "intended_labels": [],
+      "topic": "field equipment company maintenance and logistics",
+      "context": "Invent an email in a field equipment company serving maintenance and logistics. Situation: Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence.",
+      "writing_style": "plain text with wrapped lines, automated footer and support links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "no-purpose",
+      "diagnostic_tags": [
+        "no-purpose",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-no-purpose-2",
+      "case": "no_match_candidate",
+      "intended_labels": [],
+      "topic": "education cooperative courses and enrollment",
+      "context": "Invent an email in a education cooperative serving courses and enrollment. Situation: Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence.",
+      "writing_style": "Unicode punctuation, mild HTML entity artifacts and short signature. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "no-purpose",
+      "diagnostic_tags": [
+        "no-purpose",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-no-purpose-3",
+      "case": "no_match_candidate",
+      "intended_labels": [],
+      "topic": "small research studio research operations",
+      "context": "Invent an email in a small research studio serving research operations. Situation: Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence.",
+      "writing_style": "conversational wording, separate subject and realistic quoted prior messages. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "no-purpose",
+      "diagnostic_tags": [
+        "no-purpose",
+        "mail-realism-v1"
+      ]
+    },
+    {
+      "family_id": "r02-no-purpose-4",
+      "case": "no_match_candidate",
+      "intended_labels": [],
+      "topic": "regional housing service tenant and account operations",
+      "context": "Invent an email in a regional housing service serving tenant and account operations. Situation: Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence. Change people, organizations, identifiers, dates and circumstances independently; do not reuse any real message. Domain must be example.org.",
+      "purpose": "Message is a fragment or simple document title with readable content but genuinely no communicative purpose in this taxonomy; avoid turning unreadability into absence.",
+      "writing_style": "formal template with boilerplate, dates, identifiers and account links. Vary body between 180 and 2200 bytes; avoid contrived label-signalling wording.",
+      "slice": "challenge",
+      "stratum": "no-purpose",
+      "diagnostic_tags": [
+        "no-purpose",
+        "mail-realism-v1"
+      ]
+    }
+  ],
+  "diversity": {
+    "description": "32 communicative situations crossed with five different institutional workflows and delivery styles; variants stay within family; fresh invented text, no private examples."
+  }
+}

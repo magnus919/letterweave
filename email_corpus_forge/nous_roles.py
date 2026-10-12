@@ -17,14 +17,16 @@ _STAGE_ROLES = {'generate': 'generation', 'mutate': 'generation',
 class LunaNousChatProvider(NousChatProvider):
     """Luna uses the established Chat schema/profile with its own wire identity."""
     def __init__(self, transport, *, authorization=None, reasoning_effort='low',
-                 max_input_tokens=12000, max_output_tokens=6000):
+                 max_input_tokens=12000, max_output_tokens=6000, content_profile="compact"):
+        self.content_profile=content_profile
+        if content_profile not in {'compact','mail-realism-v1'}:raise ValueError('unknown content profile')
         if reasoning_effort != 'low':
             raise ValueError('this authorization selects ordinary Luna with low reasoning')
         ContractProviderAdapter.__init__(
             self, LUNA_MODEL, input_rate_micro_per_million=225000,
             output_rate_micro_per_million=500000,
             max_input_tokens=max_input_tokens, max_output_tokens=max_output_tokens)
-        if max_input_tokens > 12000 or max_output_tokens > 6000:
+        if max_input_tokens > (24000 if content_profile=='mail-realism-v1' else 12000) or max_output_tokens > 6000:
             raise ValueError('bounded private pilot ceilings exceeded')
         self.transport, self.authorization = transport, authorization
         self.reasoning_effort = reasoning_effort
@@ -69,11 +71,11 @@ class RoleRoutedNousProvider(NousChatProvider):
     name = 'nous-chat'
 
     def __init__(self, transport, *, authorization=None, reasoning_effort='low',
-                 max_input_tokens=12000, max_output_tokens=6000):
+                 max_input_tokens=12000, max_output_tokens=6000, content_profile="compact"):
         if reasoning_effort != 'low':
             raise ValueError('role authorization selects low reasoning')
         kwargs = dict(authorization=authorization, reasoning_effort=reasoning_effort,
-                      max_input_tokens=max_input_tokens, max_output_tokens=max_output_tokens)
+                      max_input_tokens=max_input_tokens, max_output_tokens=max_output_tokens,content_profile=content_profile)
         self._children = {'generation': LunaNousChatProvider(transport, **kwargs),
                           'review': NousChatProvider(transport, **kwargs)}
         self.transport, self.authorization = transport, authorization
