@@ -24,3 +24,7 @@ Canonical SHA-256 is calculated over UTF-8 JSON with sorted keys, no ASCII escap
 | context_sensitive | `444f0c5a7d8e57ab41c83f880390c5ee71d529fbc8cf68336a06fef0612442d3` | `33e7fda2ee052fd6a67fe294a416a0be145d4d514af42eeff26ab244c5a58551` |
 
 Public scenario text is offered under MIT to the extent the publisher holds rights. No provider models/services or third-party rights are licensed. Reproducible planning does not establish gold-label accuracy, representative inbox prevalence or semantic fact preservation.
+
+## Planned mixed-model continuation
+
+The hashes above commit to the original v0.4 plans and are not rewritten for continuation. The proposed v0.5 workflow carries 247 Sol-generated records; subsequent content/mutations use Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`) with requested `low` reasoning, while review/re-review stays on `openai/gpt-6.1-sol`. Final per-record/stage model provenance must distinguish these paths. Input/output bounds remain 12,000/6,000 inclusive tokens. These sidecars describe scenario intent, not completed execution or final release counts.

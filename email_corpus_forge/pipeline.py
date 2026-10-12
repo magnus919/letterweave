@@ -164,7 +164,8 @@ def _call(run_dir: Path, ledger: Ledger, provider: Provider, attempt_id: str, st
         write_once(raw_path, envelope)
         ledger.append("raw_written", attempt_id=attempt_id, raw_hash=digest(envelope))
     response = envelope["response"]
-    if response["model"] != provider.model:
+    dispatches = [e['data'] for e in ledger.attempt_events(attempt_id) if e['kind'] == 'dispatched']
+    if len(dispatches) != 1 or response["model"] != dispatches[0]['model']:
         raise IntegrityError("unexpected response model; reservation retained")
     for key in ("input_tokens", "output_tokens", "reasoning_tokens"):
         if type(response[key]) is not int or response[key] < 0:

@@ -29,7 +29,7 @@ class SDKNousChatTransport:
         try:r=self.client.chat.completions.create(**request)
         except Exception as e:
             status=getattr(e,'status_code',None)
-            if type(status) is int:return {'id':getattr(e,'request_id',None),'model':MODEL,'choices':[], 'usage':None,'error':{'status_code':status,'type':type(e).__name__}}
+            if type(status) is int:return {'id':getattr(e,'request_id',None),'model':request['model'],'choices':[], 'usage':None,'error':{'status_code':status,'type':type(e).__name__}}
             raise
         return r.model_dump(mode='json') if hasattr(r,'model_dump') else r
 
