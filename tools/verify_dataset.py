@@ -70,7 +70,13 @@ def verify_dataset(directory):
         if hashes[name]!=hashlib.sha256(contents[name]).hexdigest():fail('payload checksum mismatch')
     manifest=parse(contents['manifest.json'].decode());taxonomy=parse(contents['taxonomy.json'].decode())
     allowed_manifest={'release_name','release_version','contract_version','rubric_hash','kind','accepted_count','excluded_count','source_candidate_count','source_family_count','qa_excluded_ids','global_quarantined_ids','controlled_transition_count','sources','license','rights_holder','publication_reference','terms_evidence','gold_labels','semantic_equivalence_established','model_provenance_version','model_provenance_basis'}
+    external_fields={'external_unresolved_attempt_count','external_unresolved_reservations_micro'}
+    allowed_manifest|=external_fields
     if not isinstance(manifest,dict) or set(manifest)-allowed_manifest:fail('manifest field allowlist mismatch')
+    if external_fields & set(manifest):
+        if not external_fields <= set(manifest):fail('external unresolved declaration requires both fields')
+        if type(manifest['external_unresolved_attempt_count']) is not int or manifest['external_unresolved_attempt_count']<1:fail('invalid external unresolved attempt count')
+        if type(manifest['external_unresolved_reservations_micro']) is not int or manifest['external_unresolved_reservations_micro']<=0:fail('invalid external unresolved reservation')
     versioned='model_provenance_version' in manifest
     if versioned:
         if type(manifest['model_provenance_version']) is not int or manifest['model_provenance_version']!=1:fail('unsupported model provenance version')

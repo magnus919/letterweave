@@ -52,4 +52,6 @@ Per record, `generation_model` is the normalized actual alias and `generation_mo
 
 There are 248 actual Sol-produced records: 247 previously finalized plus one cached generation. Remaining generation uses Luna; no exact final Luna count is asserted before completion. The native-QA snapshot covers 267 records, including nineteen new Luna records and the cached Sol record. That twenty-record increment has nineteen accepted and one held, with no additional accepted-record exclusions. The earlier seventeen QA exclusions remain provisional quality decisions, not gold labels; the first 100 records used nonopaque IDs. Final retained counts remain pending.
 
-All 208 tests passed locally and in an isolated installed package, including adversarial raw-response and review-history checks. Remote CI evidence remains tied to its exact reviewed commit; the final dataset payload is still pending.
+All 217 tests passed locally and in an isolated installed package, including adversarial raw-response and review-history checks. Remote CI evidence remains tied to its exact reviewed commit; the final dataset payload is still pending.
+
+Excluded uncertain requests can remain reserved in their original private ledger while an explicitly linked continuation finishes other planned slots. The assembler validates the original hashes, reservation and technical hold, and reports aggregate unresolved exposure. It never infers zero billing, fabricates usage or regenerates that failed slot. A settled continuation does not imply that all provider billing outcomes are reconciled.
