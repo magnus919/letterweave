@@ -1,0 +1,13 @@
+# Mail realism generation profile
+
+Tooling 0.6.0 adds `mail-realism-v1` for longer, messier, and subject-only received mail. The compact profile remains available to reproduce the old generation shape; its 2,200-byte limit is not appropriate for a general email corpus.
+
+Select `content_profile='mail-realism-v1'` on `NousChatProvider` or `RoleRoutedNousProvider`. Supply the provider input/completion-token budget explicitly. The content contract no longer rejects text at 12,000 characters, and the realism profile imposes no fixed subject/body character or byte cap. The provider completion budget still bounds generation. The adapter checks the complete request's conservative byte envelope before dispatch; an over-budget input is an explicit failure, never a silently shortened message. Downstream training must independently measure complete serialized token length and reject or explicitly account for overflow.
+
+`python tools/build_realism_plan.py --out scenario-plans/realism-0.2.0.json` reproduces 160 invented scenario families across 32 situations and five organizational workflows. Two sampled variants per family produce 320 planned candidates. Variants stay in their family's stable planned split. Intended labels guide scenario design only; the review stage sees content and the rubric, not intended labels or the plan.
+
+The profile covers automated acknowledgements and rejections, account records, past meeting recaps, current invitations and reminders, subject-only operational reports, absent attachments, task deadlines, authentication and connection failures, long quoted threads, publication delivery, marketing solicitations, group discussions, and ordinary personal mail. Keep broader coverage rather than matching one inbox's topic proportions. Fresh generation and review remain machine judgments; they do not establish real-email accuracy.
+
+The realism review prompt adds examples clarifying existing purposes. It is a distinct prompt revision even where the category anchors remain the same. Record the profile, exact request, actual model version, source hashes, exclusions and split lineage. Never silently relabel old released data under the new prompt. A real-email corpus inspected to design these scenarios is development data; agreement on that corpus is not an untouched benchmark.
+
+Private emails, subjects, names, addresses, account identifiers, provider responses and host paths must not enter the scenario inventory or public release. Use only abstract failure patterns and invented content. Review generated text for naturalness, accidental identifiers, label-signalling disclaimers and substantive diversity before assembly. Unknown judgments remain held; they are never trained as absent.

@@ -74,7 +74,10 @@ def _attempt(root, attempt_id, stage, events):
     if alias not in adapters:
         raise IntegrityError('actual response model has no verified normalization adapter')
     try:
-        normalized = adapters[alias](None).normalize_response(response.get('raw_response'))
+        request=response.get('request_payload') or {}
+        messages=request.get('messages') or []
+        profile='mail-realism-v1' if messages and 'Generation profile mail-realism-v1.' in messages[0].get('content','') else 'compact'
+        normalized = adapters[alias](None,content_profile=profile).normalize_response(response.get('raw_response'))
     except (ValueError, TypeError, KeyError, AttributeError) as exc:
         raise IntegrityError('original provider response cannot be normalized') from exc
     fields = ('model', 'text', 'outcome', 'provider_status',

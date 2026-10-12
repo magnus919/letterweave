@@ -11,7 +11,7 @@ LABELS = (
     "newsletters/publications", "promotions/outreach", "community/discussions",
     "scheduling/invitations",
 )
-VERSION = "0.4.0"
+VERSION = "0.5.0"
 ANCHORS = {
     LABELS[0]: "Substantive interpersonal exchange beyond another category's routine mechanics. Greetings, signatures, RSVP/slot replies, and a group discussion contribution alone are insufficient.",
     LABELS[1]: "A discrete exchange, account record or commitment; offers are not receipts.",
@@ -40,7 +40,7 @@ CONTENT_SCHEMA = {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "type": "object", "additionalProperties": False,
     "required": ["subject", "body"],
-    "properties": {k: {"type": "string", "maxLength": 12000} for k in ("subject", "body")},
+    "properties": {k: {"type": "string"} for k in ("subject", "body")},
     "anyOf": [{"properties": {k: {"pattern": "\\S"}}} for k in ("subject", "body")],
 }
 REVIEW_SCHEMA = {
@@ -79,8 +79,8 @@ def digest(value: object) -> str:
 def validate_content(content: object) -> dict:
     if not isinstance(content, dict) or set(content) != {"subject", "body"}:
         raise ContractError("content must contain subject and body only")
-    if any(not isinstance(v, str) or len(v) > 12000 for v in content.values()):
-        raise ContractError("content fields must be bounded strings")
+    if any(not isinstance(v, str) for v in content.values()):
+        raise ContractError("content fields must be strings")
     if not any(v.strip() for v in content.values()):
         raise ContractError("content has no readable text")
     if any("\x00" in v for v in content.values()):

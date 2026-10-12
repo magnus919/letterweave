@@ -35,15 +35,17 @@ class SDKNousChatTransport:
 
 class NousChatProvider(OpenAIResponsesProvider):
     name='nous-chat'
-    def __init__(self,transport,*,authorization=None,reasoning_effort='low',max_input_tokens=12000,max_output_tokens=6000):
+    def __init__(self,transport,*,authorization=None,reasoning_effort='low',max_input_tokens=12000,max_output_tokens=6000,content_profile="compact"):
+        self.content_profile=content_profile
+        if content_profile not in {'compact','mail-realism-v1'}:raise ValueError('unknown content profile')
         if reasoning_effort not in {'low','medium','high','xhigh','max'}:raise ValueError('unsupported Sol reasoning effort')
         # Reserve prompt + worst-case cache write additively; no cache discount assumed.
         ContractProviderAdapter.__init__(self,MODEL,input_rate_micro_per_million=4500000,output_rate_micro_per_million=10000000,max_input_tokens=max_input_tokens,max_output_tokens=max_output_tokens)
-        if max_input_tokens>12000 or max_output_tokens>6000:raise ValueError('bounded private pilot ceilings exceeded')
+        if max_input_tokens>(24000 if content_profile=='mail-realism-v1' else 12000) or max_output_tokens>6000:raise ValueError('bounded private pilot ceilings exceeded')
         self.transport,self.authorization,self.reasoning_effort=transport,authorization,reasoning_effort
         self._prepared={};self._frozen_settings=self.settings();self._frozen_reservation=self.reservation_micro
     def settings(self):
-        return {'model':self.model,'input_rate_micro_per_million':self.input_rate,'output_rate_micro_per_million':self.output_rate,'max_input_tokens':self.max_input_tokens,'max_output_tokens':self.max_output_tokens,'reasoning_effort':self.reasoning_effort,'billing_basis':'conservative prompt plus cache-write envelope; output includes reasoning','input_count_basis':'unwrapped message UTF8 bytes plus explicit nonmessage metadata/schema bytes plus1024 framing; not exact tokenizer count','service_tier':'ordinary model alias; no batch/fast/flex override','content_profile':'English typography preserved; UTF8 subject160/body2200 byte limits; no silent normalization'}
+        return {'model':self.model,'input_rate_micro_per_million':self.input_rate,'output_rate_micro_per_million':self.output_rate,'max_input_tokens':self.max_input_tokens,'max_output_tokens':self.max_output_tokens,'reasoning_effort':self.reasoning_effort,'billing_basis':'conservative prompt plus cache-write envelope; output includes reasoning','input_count_basis':'unwrapped message UTF8 bytes plus explicit nonmessage metadata/schema bytes plus1024 framing; not exact tokenizer count','service_tier':'ordinary model alias; no batch/fast/flex override','content_profile':self.content_profile}
     def _authorize(self):
         if not isinstance(self.authorization,PrivatePilotAuthorization):raise DispatchNotAuthorized('private pilot authorization absent')
         self.authorization.check()
@@ -65,6 +67,12 @@ class NousChatProvider(OpenAIResponsesProvider):
         instructions=c['instructions']
         if stage in {'generate','mutate'}:
             instructions+=' Preserve curly and straight apostrophes, possessives, quotes, dashes and ellipses; never replace punctuation with whitespace or line breaks. Subject <=160 UTF-8 bytes and body <=2200 UTF-8 bytes; do not truncate or normalize parent text to force a label.'
+        if self.content_profile=='mail-realism-v1':
+            from .realism import GUIDANCE,REVIEW_GUIDANCE
+            if stage in {'generate','mutate','repair'}:
+                schema=json.loads(canonical(CONTENT_SCHEMA))
+                instructions=c['instructions']+' '+GUIDANCE
+            else: instructions+=' '+REVIEW_GUIDANCE
         return {'model':MODEL,'messages':[{'role':'system','content':instructions},{'role':'user','content':canonical(wire_input).decode()}], 'response_format':{'type':'json_schema','json_schema':{'name':'email_review' if stage in {'review','rereview','repair_review'} else 'email_content','strict':True,'schema':supported_schema(schema)}},'reasoning_effort':self.reasoning_effort,'max_completion_tokens':self.max_output_tokens,'stream':False}
     def normalize_response(self,raw):
         if type(raw) is not dict:raise ValueError('invalid chat envelope')
@@ -86,7 +94,10 @@ class NousChatProvider(OpenAIResponsesProvider):
             try:
                 generated=json.loads(text)
                 if isinstance(generated,dict) and set(generated)=={'subject','body'}:
-                    if not profile_valid(generated):outcome='error'
+                    validator=profile_valid
+                    if self.content_profile=='mail-realism-v1':
+                        from .realism import profile_valid as validator
+                    if not validator(generated):outcome='error'
             except (ValueError,TypeError):pass  # malformed JSON handled by content contract
         model=raw.get('model');model=MODEL if model==CANONICAL_MODEL else model
         return Response(text=text,model=model,request_id=raw.get('id'),**values,provider_status=status,outcome=outcome,raw_response=raw)

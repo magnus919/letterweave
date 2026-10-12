@@ -1,0 +1,11 @@
+# Letterweave 0.2.0
+
+Synthetic English emails; machine-labeled, not gold. 1158 retained messages. This revision retains the released 0.1.0 source payload and adds fresh invented mail-realism-v1 records. Old records were not relabeled. Complete decided seven-purpose vectors are included; unknown and failed judgments are excluded, never converted to negatives.
+
+The realism profile has no arbitrary subject/body character cap. Actual provider input and completion-token budgets constrain calls; complete serialized token-length checks constrain training separately, with explicit overflow handling. New scenarios include operational acknowledgements, recap notices versus current invitations, task alerts, subject-only reports, quoted histories, long publications, persuasive outreach and contrasting ordinary group/personal mail.
+
+The generator's failure-pattern design was informed by a private 100-message development review. No private email text, names, subjects, addresses, original message identifiers or attachments are included in this synthetic payload or generation requests. Because that private development set informed the generator, subsequent agreement on it is not an independent held-out benchmark. Assistant reviews and generation-model reviews are model judgments, not human gold.
+
+Fresh generation used Nous openai/gpt-6-luna; blind review used openai/gpt-6.1-sol. Actual versions and source hashes appear in provenance. Reviews did not receive intended labels. Literal evidence and review agreement do not establish correctness. Four per-shard frozen rereview allowances and two malformed-content repair allowances were configured; no intended-label repair/top-up. Obvious label-signalling disclaimer examples were QA-excluded. Correlated variants remain in the same family split. Cross-family lexical duplicates were screened across the combined retained corpus; bounded lexical similarity does not prove semantic independence.
+
+MIT data license, limited to publisher-held rights. Original 0.1.0 provider-applicability limitations and unresolved prior billing exposure remain declared in the manifest. Raw API responses, hidden reasoning, credentials and operational host information are excluded. This is a locally assembled revision; uploading it is a separate action.

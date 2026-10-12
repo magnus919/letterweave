@@ -21,14 +21,17 @@ class ContentTests(unittest.TestCase):
             with self.subTest(content=content):
                 self.assertEqual(validate_content(content), content)
 
-    def test_empty_whitespace_unreadable_and_unbounded_fail(self):
+    def test_empty_whitespace_and_unreadable_fail(self):
         for content in ({"subject": "", "body": ""},
                         {"subject": " \n", "body": "\t"},
-                        {"subject": "Hello", "body": "\x00"},
-                        {"subject": "x" * 12001, "body": ""}):
+                        {"subject": "Hello", "body": "\x00"}):
             with self.subTest(content=content):
                 with self.assertRaises(ContractError):
                     validate_content(content)
+
+    def test_length_is_not_a_content_semantic_rejection(self):
+        content={"subject":"Long article", "body":"x"*18000}
+        self.assertEqual(validate_content(content),content)
 
     def test_types_missing_keys_and_metadata_fail(self):
         for content in ({"subject": 3, "body": "Hello"}, {"body": "Hello"},
