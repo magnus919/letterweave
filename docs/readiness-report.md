@@ -1,46 +1,44 @@
-# Implementation and fresh-release readiness — proposed v0.5 mixed-model continuation
+# Fresh-release readiness
 
-## Verified implementation
+Original frozen-plan, isolated-review, immutable evidence, resumable ledger and conservative reservation tooling is implemented. No gold-label, semantic-equivalence or naturalness claim follows from software verification.
 
-Original generator tooling provides frozen taxonomy/scenario plans, isolated content-only reviews, preserved first/latest/final judgments, uncertainty handling, immutable evidence, resumable checkpoints, family lineage, bounded requests, conservative cost reservations and duplicate diagnostics. Controller consensus never overwrites a disagreement with the latest answer. Mechanical literal-anchor/format checks do not establish semantic fact preservation.
+## Fresh cohort and quality
 
-Code PR 1 is merged at `0cb3f105`; reviewed head `7e642f6` passed remote CI with **155 tests and 35 critical mutation checks**. The standalone dataset and scenario-plan verifiers have25 focused tests. The full local and isolated installed suites each passed180 tests. Verification covers software behavior, not gold labels or real-inbox accuracy.
+Generation completed the planned cohort. Final retained counts, actual model evidence and native QA outcomes are consolidated in the verified dataset section below. Related factual themes and descendants are correlated. Intended labels/mutation relations are design hypotheses; mixed-model agreement is not ground truth.
 
-A sanitized offline assembler is implemented. It builds a new immutable release from compatible settled fresh runs, excludes unresolved/duplicate/QA-excluded records, writes content, labels, limited lineage, license and checksums, and refuses existing destinations. No publishing or generation occurs during assembly.
+## Accounting limits
 
-## Fresh cohort in progress
+Fresh settled conservative accounting: $8.512091; unresolved fresh reservation: $0.005700. Prior exposure is $1.122584, including an old unresolved $0.114000 reservation. Combined exposure is $9.640375 under the approved $25 fresh/$30 cumulative caps. These are catalog-based conservative estimates/reservations, not verified attributable invoice charges. Native QA is outside the provider ledger. A held uncertain request is not free, all-negative or semantically ambiguous by implication. Continuation does not reconcile its billing outcome.
 
-Planned denominator: **1,000 candidates / 900 families**, with 75% ordinary, 20% challenge and 5% context-sensitive messages. The challenge slice has 100 two-message parent/child families. All data is freshly synthetic; fixture outputs and historical private pilots are excluded. Retained, held, rejected, excluded and unattempted counts are not yet known and must not be inferred from planned totals.
+## Offline assembly and verification
 
-The 248 actual Sol-produced records (247 previously finalized plus one cached generation) retain Sol provenance. Future content generation/mutation uses Nous `openai/gpt-6-luna`, canonical `openai/gpt-6-luna-20260922`, with requested reasoning effort `low`. Review/re-review stays on Nous `openai/gpt-6.1-sol`. Actual record/stage models must be recorded in final provenance. Blind reviewer contexts exclude intended labels, family/split metadata, previous answers and controller rationale. Existing Sol-generated/Sol-reviewed records retain same-model correlation; mixed-model continuation does not establish statistical independence. Native QA is an additional unbilled review activity, not a ground-truth labeling claim. Resource failures, missing context and semantic disagreement remain separate diagnostics.
-
-## Remaining release checks
-
-Complete the fresh cohort's settled accounting and final QA; run global duplicate, family-leakage and integrity checks across strata; assemble the retained subset; verify joins and checksums; and fill observed slice/label distributions and exclusions in the data card. An observed all-negative or unknown quota is not required. Never claim 1,000 accepted messages simply because 1,000 slots were planned.
-
-The dataset is synthetic and machine-labeled, not gold. Related factual themes, selected scenarios and controlled descendants limit independence and representativeness. No population accuracy or real-inbox performance is established.
-
-Public terms review establishes no express dataset-only publication ban or general written-permission requirement. Applicable upstream agreement for the exact Nous Sol route remains unidentified; record this uncertainty without treating model-training restrictions as a demonstrated dataset-publication ban. Dataset MIT applies only to publisher-held rights. Publication is a separate authorized external action; implementation tests do not clear third-party rights.
-
-## Continuation evidence and accounting
-
-Native QA covered 247 existing records: the first 100 were nonopaque and the later 147 opaque. Seventeen exclusions are provisional, not final retained counts. Disclose the mixed blinding conditions and preserve original evidence.
-
-Verified Luna catalog rates per million: prompt $0.10, completion $0.50 inclusive of reasoning, cache-write $0.125; conservative input reservation $0.225. Subscription/catalog accounting does not establish actual invoice attribution. The fresh $25 and cumulative $30 caps remain unchanged. No completion or public dataset release is asserted.
-
-## Model-aware assembly and verification — pending final release
-
-The adjunct `tools/assemble_model_release.py` assembles mixed-model provenance offline; `tools/verify_dataset.py` checks dataset schema v1 and model declarations. Neither generates or publishes. Example using local placeholders:
+Use the model-aware adjunct as the primary mixed-model assembly route:
 
 ```sh
 python tools/assemble_model_release.py --runs ./runs/ordinary ./runs/challenge ./runs/context-sensitive --out ./datasets/letterweave-0.1.0 --authorization ./release-authorization.json --qa-exclusions ./qa-exclusions.json
 python tools/verify_dataset.py --dataset ./datasets/letterweave-0.1.0
 ```
 
-Per record, `generation_model` is the normalized actual alias and `generation_model_version` retains the raw provider generation-model identifier/version; `review_models` and `review_model_versions` similarly preserve normalized actual review aliases and raw versions. Source `role_models` declares planned roles separately from `actual_generation_models`, `actual_generation_model_versions`, `actual_review_models` and `actual_review_model_versions`, which describe accepted-record evidence. A planned Luna generation role must not relabel old cached Sol output as Luna.
+Assembly never generates or publishes and refuses existing release destinations. Final content/label tables and limited provenance omit unresolved, duplicate-quarantined and QA-excluded rows. Raw provider responses, hidden reasoning, private execution evidence and credentials are excluded. Dataset schema-v1 verification checks joins, integrity and model evidence; it does not establish label accuracy.
 
-There are 248 actual Sol-produced records: 247 previously finalized plus one cached generation. Remaining generation uses Luna; no exact final Luna count is asserted before completion. The native-QA snapshot covers 267 records, including nineteen new Luna records and the cached Sol record. That twenty-record increment has nineteen accepted and one held, with no additional accepted-record exclusions. The earlier seventeen QA exclusions remain provisional quality decisions, not gold labels; the first 100 records used nonopaque IDs. Final retained counts remain pending.
+Per-record `generation_model` and `review_models` are actual normalized aliases; `generation_model_version` and `review_model_versions` retain raw provider versions. Source `role_models` records planned roles separately from accepted actual model/version sets. Cached Sol content cannot become Luna merely because a continuation planned Luna generation.
 
-All 217 tests passed locally and in an isolated installed package, including adversarial raw-response and review-history checks. Remote CI evidence remains tied to its exact reviewed commit; the final dataset payload is still pending.
+All 217 tests passed locally and in an isolated installed package; all 35 critical mutants were caught. [PR 2](https://github.com/magnus919/letterweave/pull/2) records the exact reviewed head and remote-check evidence. Dataset verification passed; final retained counts are recorded below.
 
-Excluded uncertain requests can remain reserved in their original private ledger while an explicitly linked continuation finishes other planned slots. The assembler validates the original hashes, reservation and technical hold, and reports aggregate unresolved exposure. It never infers zero billing, fabricates usage or regenerates that failed slot. A settled continuation does not imply that all provider billing outcomes are reconciled.
+## Finalization
+
+Final projection, complete global duplicate/lineage checks, immutable assembly and verification passed. Public scenario plans remain outside the strict payload. Publication is a separate external action.
+
+## Verified dataset 0.1.0
+
+The assembled dataset contains **855 retained emails from 821 families**, out of 1,000 planned slots/900 families. The 145 excluded slots comprise 77 pipeline holds, 67 manual exclusions from pipeline-accepted rows and one descendant blocked by its excluded parent. A complete global duplicate audit added zero quarantine exclusions.
+
+Retained slices: 712 ordinary, 127 challenge and 16 context-sensitive (schema slice `uncertainty`). Actual retained generation: 624 Luna and 231 Sol; all 855 records have Sol review evidence. Raw provider model identifiers are preserved as observed and are not silently replaced by catalog canonical IDs. Fourteen controlled transitions and three all-negative records are retained.
+
+Per-label support (overlapping): correspondence 300; alerts/updates 303; scheduling/invitations 202; community/discussions 170; transactions/records 166; promotions/outreach 139; newsletters/publications 66. These counts describe machine labels, not independent accuracy measurements.
+
+Native screening covered all 947 actual emails: first 100 nonopaque and subsequent 847 opaque. It recorded 67 accepted-row manual exclusions, 24 content semantic/context holds and 53 separate no-content slots. Independent audit confirmed 205 flagged records among the 855 retained; 60 of the 265 flagged actual records were not released. Focused contraction-pattern and control-character scans found zero matches; this does not establish flawless English. Packet-integrity checks found zero mismatches: 447 carried record files were byte-identical and 500 new blind-review packets matched final content. These checks do not prove naturalness, semantic equivalence or factual correctness.
+
+The immutable payload and model-aware/scenario-plan verifiers passed. Dataset checksums and release commitments are supplied with the payload. [PR 2](https://github.com/magnus919/letterweave/pull/2) records reviewed-head and check evidence.
+
+[Verified dataset payload](../datasets/letterweave-0.1.0/DATA_CARD.md).

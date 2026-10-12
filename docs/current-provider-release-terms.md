@@ -1,6 +1,6 @@
 # Fresh dataset-only publication terms review
 
-Official sources checked October 11, 2026. Scope: original generator and fresh public synthetic email text/labels, carrying 248 actual Sol-produced records (247 finalized plus one cached generation), with planned future generation/mutation through Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`, low reasoning) and review/re-review through `openai/gpt-6.1-sol`; no model training, hosted inference, private Gmail or copied upstream corpus. No provider outreach or account change occurred in this review.
+Official sources checked October 11, 2026. Scope: original generator and fresh public synthetic email text/labels, carrying 248 actual Sol-produced records (247 finalized plus one cached generation), with subsequent generation/mutation through Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`, low reasoning) and review/re-review through `openai/gpt-6.1-sol`; no model training, hosted inference, private Gmail or copied upstream corpus. No provider outreach or account change occurred in this review.
 
 [Nous Portal terms](https://portal.nousresearch.com/terms) cover its inference API. §8.4 assigns customer-generated text/data outputs to the customer, conditional on compliance and fees. §10.1.4 restricts developing/improving competing AI/ML products or services; the actual generator/corpus scope is not automatically such competition. §§10.1.5/13.2 require applicable third-party terms. §10.2.1 service-access distribution differs from publishing customer outputs. No applicable express dataset-only ban or general provider-written-permission requirement was established.
 
@@ -10,4 +10,6 @@ The [official API specification](https://portal.nousresearch.com/api/openapi) an
 
 Release licensing statement: the publisher releases synthetic, machine-labeled corpus material under MIT **to the extent applicable rights are held**. No provider models, services, trademarks or third-party material are licensed. No gold-label, legal-clearance or blanket downstream-training authorization is claimed. Remaining agreement applicability is disclosed for the release decision, not transformed into an invented permission requirement.
 
-The model change does not establish new legal clearance or a new publication prohibition. Existing output ownership and third-party-term applicability distinctions remain; record actual per-model provenance before release. No completed corpus publication is claimed.
+The model change does not establish new legal clearance or a new publication prohibition. Existing output ownership and third-party-term applicability distinctions remain; record actual per-model provenance before release. The dataset is assembled and verified locally; external publication status is separate.
+
+The retained payload has 624 Luna-generated and 231 Sol-generated records with Sol review evidence for all 855. Actual observed provider versions are recorded separately from catalog canonical identifiers.

@@ -27,4 +27,10 @@ Public scenario text is offered under MIT to the extent the publisher holds righ
 
 ## Planned mixed-model continuation
 
-The hashes above commit to the original v0.4 plans and are not rewritten for continuation. The proposed v0.5 workflow carries 248 actual Sol-produced records (247 finalized plus one cached generation); subsequent content/mutations use Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`) with requested `low` reasoning, while review/re-review stays on `openai/gpt-6.1-sol`. Final per-record/stage model provenance must distinguish these paths. Input/output bounds remain 12,000/6,000 inclusive tokens. These sidecars describe scenario intent, not completed execution or final release counts.
+The hashes above commit to the original v0.4 plans and are not rewritten for continuation. The proposed v0.5 workflow carries 248 actual Sol-produced records (247 finalized plus one cached generation); subsequent content/mutations use Nous `openai/gpt-6-luna` (canonical `openai/gpt-6-luna-20260922`) with requested `low` reasoning, while review/re-review stays on `openai/gpt-6.1-sol`. Final per-record/stage model provenance must distinguish these paths. Input/output bounds remain 12,000/6,000 inclusive tokens. These sidecars describe scenario intent; observed final release counts are documented separately.
+
+## Completed generation and finalization
+
+All 1,000 planned slots have terminal generation dispositions, yielding 947 actual emails; final retained count is 855 emails from 821 families after verified QA/assembly. Original plan hashes above remain unchanged. The r4 continuation code fingerprint recorded in its authority evidence is `a7b53e5f0aa696cea16ff7cd231a18094109bbc7d0a0cd47ef7403191d5d144e`. Mixed-model provenance records actual Sol/Luna stages rather than rewriting original plans. No execution authority, private ledger or raw-output proof is included.
+
+Verified final payload: 855 retained emails/821 families; 624 actual Luna generation and 231 Sol generation, all Sol-reviewed. [Dataset data card](../../datasets/letterweave-0.1.0/DATA_CARD.md) records observed release evidence. Original plan hashes remain unchanged.
